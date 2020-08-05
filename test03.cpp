@@ -154,8 +154,8 @@ int main(int argc, char *argv[])
 //        unsigned int  * kevin_int_test;
     } args;
 
-    args.p_in_global = dev_wei;//dev_in;
-    args.p_wei_global = dev_out;//dev_wei;
+    args.p_in_global = dev_out;//dev_in;
+    args.p_wei_global = dev_wei;//dev_wei;
     args.p_out_global = dev_in;//dev_out;
 //    args.kevin_int_test = kevin_int_test;
 
