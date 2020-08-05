@@ -1,5 +1,5 @@
 	.text
-;	.amdgcn_target "amdgcn-amd-amdhsa--gfx908+sram-ecc"
+	;.amdgcn_target "amdgcn-amd-amdhsa--gfx908+sram-ecc"
 	.hidden	bfloat16_to_float       ; -- Begin function bfloat16_to_float
 	.globl	bfloat16_to_float
 	.p2align	2
@@ -7,7 +7,7 @@
 bfloat16_to_float:                      ; @bfloat16_to_float
 bfloat16_to_float$local:
 .Lfunc_begin0:
-	.file	1 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./bfloat16_dev.hpp"
+	.file	1 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./bfloat16_dev.hpp"
 	.loc	1 53 0                  ; ./bfloat16_dev.hpp:53:0
 ; %bb.0:
 	s_waitcnt vmcnt(0) expcnt(0) lgkmcnt(0)
@@ -107,7 +107,7 @@ BB1_4:
 _ZN2ck22get_thread_local_1d_idEv:       ; @_ZN2ck22get_thread_local_1d_idEv
 _ZN2ck22get_thread_local_1d_idEv$local:
 .Lfunc_begin2:
-	.file	3 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./utility.hpp"
+	.file	3 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./utility.hpp"
 	.loc	3 8 0 is_stmt 1         ; ./utility.hpp:8:0
 ; %bb.0:
 	s_waitcnt vmcnt(0) expcnt(0) lgkmcnt(0)
@@ -164,7 +164,7 @@ _ZN2ck15get_block_1d_idEv$local:
 _ZNK2ck12type_convertIfEclItEEfT_:      ; @_ZNK2ck12type_convertIfEclItEEfT_
 _ZNK2ck12type_convertIfEclItEEfT_$local:
 .Lfunc_begin4:
-	.file	4 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./float_type.hpp"
+	.file	4 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./float_type.hpp"
 	.loc	4 278 0                 ; ./float_type.hpp:278:0
 ; %bb.0:
 	s_waitcnt vmcnt(0) expcnt(0) lgkmcnt(0)
@@ -266,7 +266,7 @@ BB5_4:
 _ZN2ck15amd_buffer_loadIfLi1EEENS_11vector_typeIT_XT0_EE10MemoryTypeEPKS2_ii: ; @_ZN2ck15amd_buffer_loadIfLi1EEENS_11vector_typeIT_XT0_EE10MemoryTypeEPKS2_ii
 _ZN2ck15amd_buffer_loadIfLi1EEENS_11vector_typeIT_XT0_EE10MemoryTypeEPKS2_ii$local:
 .Lfunc_begin6:
-	.file	5 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./amd_buffer_addressing.hpp"
+	.file	5 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./amd_buffer_addressing.hpp"
 	.loc	5 176 0                 ; ./amd_buffer_addressing.hpp:176:0
 ; %bb.0:
 	s_waitcnt vmcnt(0) expcnt(0) lgkmcnt(0)
@@ -1556,7 +1556,7 @@ BB28_7:                                 ; =>This Inner Loop Header: Depth=1
 _ZN2ck15atomic_add_implIDv2_fEEvPT_S2_: ; @_ZN2ck15atomic_add_implIDv2_fEEvPT_S2_
 _ZN2ck15atomic_add_implIDv2_fEEvPT_S2_$local:
 .Lfunc_begin29:
-	.file	6 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./in_memory_operation.hpp"
+	.file	6 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./in_memory_operation.hpp"
 	.loc	6 21 0                  ; ./in_memory_operation.hpp:21:0
 ; %bb.0:
 	s_waitcnt vmcnt(0) expcnt(0) lgkmcnt(0)
@@ -1836,7 +1836,7 @@ BB30_10:                                ; =>This Inner Loop Header: Depth=1
 _ZN2ck14block_sync_ldsEv:               ; @_ZN2ck14block_sync_ldsEv
 _ZN2ck14block_sync_ldsEv$local:
 .Lfunc_begin31:
-	.file	8 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./synchronization.hpp"
+	.file	8 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./synchronization.hpp"
 	.loc	8 11 0                  ; ./synchronization.hpp:11:0
 ; %bb.0:
 	s_waitcnt vmcnt(0) expcnt(0) lgkmcnt(0)
@@ -1898,7 +1898,7 @@ _ZN2ck19block_sync_lds_vmemEv$local:
 _ZN2ck30amd_assembly_outer_product_1x2EDv2_DF16_S0_S0_RfS1_: ; @_ZN2ck30amd_assembly_outer_product_1x2EDv2_DF16_S0_S0_RfS1_
 _ZN2ck30amd_assembly_outer_product_1x2EDv2_DF16_S0_S0_RfS1_$local:
 .Lfunc_begin33:
-	.file	9 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./amd_inline_asm.hpp"
+	.file	9 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./amd_inline_asm.hpp"
 	.loc	9 39 0 is_stmt 1        ; ./amd_inline_asm.hpp:39:0
 ; %bb.0:
 	s_waitcnt vmcnt(0) expcnt(0) lgkmcnt(0)
@@ -2085,7 +2085,7 @@ _ZN2ck30amd_assembly_outer_product_1x4EDv4_DF16_S0_S0_S0_S0_RfS1_S1_S1_$local:
 _ZN2ck19gcnasm_accvgpr_readILi4EEEvPf:  ; @_ZN2ck19gcnasm_accvgpr_readILi4EEEvPf
 _ZN2ck19gcnasm_accvgpr_readILi4EEEvPf$local:
 .Lfunc_begin37:
-	.file	10 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./amd_xdlops.hpp"
+	.file	10 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./amd_xdlops.hpp"
 	.loc	10 184 0                ; ./amd_xdlops.hpp:184:0
 ; %bb.0:
 	s_waitcnt vmcnt(0) expcnt(0) lgkmcnt(0)
@@ -5242,7 +5242,7 @@ _ZN2ck25gcnasm_mfma_f32_4x4x2bf16ILi8ELi64EEEvRKDv2_tS3_PDv4_f$local:
 gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw: ; @gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw
 gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw$local:
 .Lfunc_begin77:
-	.file	11 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp"
+	.file	11 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp"
 	.loc	11 11 0                 ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:11:0
 ; %bb.0:                                ; %_ZZN2ck5MergeINS_8SequenceIJLi128ELi14ELi14EEEEE23CalculateLowerIndexDiffERKNS_5ArrayIiLi1EEES7_RKNS4_IiLi3EEEENKUlT_E0_clINS_17integral_constantIiLi2EEEEEDaSB_.exit.i.i.i.i.i.i.i.i.i.i.i.i.i.i.i.i.i.i.i.i.i.i.i.1
 	s_add_u32 flat_scratch_lo, s6, s9
@@ -5254,7 +5254,7 @@ gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw$l
 	s_mov_b32 s4, 0x5397829d
 	s_addc_u32 s1, s1, 0
 .Ltmp173:
-	.file	12 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./multi_index_transform.hpp"
+	.file	12 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./multi_index_transform.hpp"
 	.loc	12 210 34 prologue_end  ; ./multi_index_transform.hpp:210:34
 	s_mul_hi_i32 s5, s8, s4
 	s_lshr_b32 s6, s5, 31
@@ -5270,14 +5270,14 @@ gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw$l
 	s_add_i32 s6, s5, s6
 	s_ashr_i32 s7, s6, 2
 .Ltmp175:
-	.file	13 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./gridwise_gemm_xdlops_fp16_bfp16.hpp"
+	.file	13 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./gridwise_gemm_xdlops_fp16_bfp16.hpp"
 	.loc	13 1118 72              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1118:72
 	s_lshl_b32 s22, s7, 7
 .Ltmp176:
 	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
 	v_lshrrev_b32_e32 v65, 3, v0
 .Ltmp177:
-	.file	14 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./math.hpp"
+	.file	14 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./math.hpp"
 	.loc	14 20 101               ; ./math.hpp:20:101
 	v_lshl_or_b32 v2, v65, 2, s22
 .Ltmp178:
@@ -5292,7 +5292,7 @@ gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw$l
 	.loc	13 1115 72 is_stmt 1    ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1115:72
 	s_lshl_b32 s19, s5, 8
 .Ltmp181:
-	.file	15 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./tensor_descriptor.hpp"
+	.file	15 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./tensor_descriptor.hpp"
 	.loc	15 85 71                ; ./tensor_descriptor.hpp:85:71
 	s_lshl_b32 s4, s18, 20
 .Ltmp182:
@@ -5387,7 +5387,7 @@ gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw$l
 	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
 	v_add_u32_e32 v11, v2, v1
 .Ltmp202:
-	.file	16 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./threadwise_generic_tensor_slice_copy.hpp"
+	.file	16 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./threadwise_generic_tensor_slice_copy.hpp"
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
 	v_mov_b32_e32 v104, 0xffff
 .Ltmp203:
@@ -5401,7 +5401,7 @@ gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw$l
 	s_mov_b32 s30, s26
 	s_mov_b32 s31, s27
 .Ltmp206:
-	.file	17 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./blockwise_gemm_xdlops.hpp"
+	.file	17 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./blockwise_gemm_xdlops.hpp"
 	.loc	17 81 35 is_stmt 1      ; ./blockwise_gemm_xdlops.hpp:81:35
 	v_and_b32_e32 v66, 0xc0, v0
 .Ltmp207:
@@ -5871,14 +5871,14 @@ gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw$l
 	.loc	6 52 58                 ; ./in_memory_operation.hpp:52:58
 	ds_write_b128 v1, v[36:39] offset:48
 .Ltmp271:
-	.file	18 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./xdlops_gemm.hpp"
+	.file	18 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./xdlops_gemm.hpp"
 	.loc	18 0 0 is_stmt 0        ; ./xdlops_gemm.hpp:0:0
 	v_and_b32_e32 v1, 63, v0
 	v_lshlrev_b32_e32 v123, 4, v1
 	v_or3_b32 v127, v2, v123, s6
 	v_or_b32_e32 v107, 0x400, v123
 .Ltmp272:
-BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1ELi1024EEEEE23CalculateLowerIndexDiffERKNS_5ArrayIiLi1EEES7_RKNS4_IiLi3EEEENKUlT_E0_clINS_17integral_constantIiLi2EEEEEDaSB_.exit.i.i.i.i.i.i.i.i.i.i.i.i.i.i3282.i.i.i
+BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1ELi1024EEEEE23CalculateLowerIndexDiffERKNS_5ArrayIiLi1EEES7_RKNS4_IiLi3EEEENKUlT_E0_clINS_17integral_constantIiLi2EEEEEDaSB_.exit.i.i.i.i.i.i.i.i.i.i.i.i.i.i3233.i.i.i
                                         ; =>This Inner Loop Header: Depth=1
 	.loc	12 285 43 is_stmt 1     ; ./multi_index_transform.hpp:285:43
 	v_cmp_gt_i32_e32 vcc, s35, v34
@@ -5969,7 +5969,7 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	.loc	12 285 43               ; ./multi_index_transform.hpp:285:43
 	v_cmp_gt_i32_e64 s[12:13], s42, v34
 .Ltmp293:
-	.file	19 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./tensor_coordinate.hpp"
+	.file	19 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./tensor_coordinate.hpp"
 	.loc	19 68 17                ; ./tensor_coordinate.hpp:68:17
 	v_lshl_add_u32 v103, v0, 10, v103
 .Ltmp294:
@@ -6595,11 +6595,14 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
 	v_mfma_f32_32x32x4f16 a[32:63], v[6:7], v[22:23], a[32:63] cbsz:1 abid:1
 	s_mov_b32 s23, 0x27000
-	s_mov_b32 s8, 0x5397829d
-	s_movk_i32 s4, 0xff3c
+	s_mov_b32 s7, 0x5397829d
+	s_movk_i32 s6, 0xff3c
 	s_mov_b32 s5, 0x92492493
-	s_movk_i32 s6, 0x3800
-	s_mov_b32 s7, 0x31000
+	s_movk_i32 s11, 0xc4
+	s_mov_b32 s4, 0x31000
+	s_movk_i32 s8, 0x620
+	s_movk_i32 s9, 0xc40
+	s_movk_i32 s10, 0x1260
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	v_mfma_f32_32x32x4f16 a[96:127], v[8:9], v[16:17], a[96:127] cbsz:1
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
@@ -6663,13 +6666,16 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	.loc	18 912 24               ; ./xdlops_gemm.hpp:912:24
 	ds_read_b128 v[22:25], v123 offset:8192
 	ds_read_b128 v[26:29], v123 offset:10240
+	.loc	18 911 24               ; ./xdlops_gemm.hpp:911:24
+	ds_read_b128 v[34:37], v127 offset:24576
+	ds_read_b128 v[38:41], v127 offset:28672
 .Ltmp380:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	v_mfma_f32_32x32x4f16 a[96:127], v[14:15], v[30:31], a[96:127] cbsz:1
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
 	v_mfma_f32_32x32x4f16 a[64:95], v[14:15], v[30:31], a[64:95] cbsz:1 abid:1
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	s_waitcnt lgkmcnt(4)
+	s_waitcnt lgkmcnt(6)
 	v_mfma_f32_32x32x4f16 a[0:31], v[14:15], v[18:19], a[0:31] cbsz:1
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
 	v_mfma_f32_32x32x4f16 a[32:63], v[14:15], v[18:19], a[32:63] cbsz:1 abid:1
@@ -6682,13 +6688,10 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
 	v_mfma_f32_32x32x4f16 a[32:63], v[16:17], v[20:21], a[32:63] cbsz:1 abid:1
 .Ltmp381:
-	.loc	18 911 24               ; ./xdlops_gemm.hpp:911:24
-	ds_read_b128 v[14:17], v127 offset:24576
-	ds_read_b128 v[18:21], v127 offset:28672
 	.loc	18 912 24               ; ./xdlops_gemm.hpp:912:24
-	ds_read_b128 v[30:33], v123 offset:12288
-	ds_read_b128 v[34:37], v123 offset:14336
-	ds_read_b128 v[38:41], v107 offset:8192
+	ds_read_b128 v[14:17], v123 offset:12288
+	ds_read_b128 v[18:21], v123 offset:14336
+	ds_read_b128 v[30:33], v107 offset:8192
 	ds_read_b128 v[42:45], v107 offset:10240
 	ds_read_b128 v[46:49], v107 offset:12288
 	ds_read_b128 v[50:53], v107 offset:14336
@@ -6707,17 +6710,17 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	v_mfma_f32_32x32x4f16 a[64:95], v[6:7], v[22:23], a[64:95] cbsz:1 abid:1
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_waitcnt lgkmcnt(3)
-	v_mfma_f32_32x32x4f16 a[0:31], v[6:7], v[38:39], a[0:31] cbsz:1
+	v_mfma_f32_32x32x4f16 a[0:31], v[6:7], v[30:31], a[0:31] cbsz:1
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_mfma_f32_32x32x4f16 a[32:63], v[6:7], v[38:39], a[32:63] cbsz:1 abid:1
+	v_mfma_f32_32x32x4f16 a[32:63], v[6:7], v[30:31], a[32:63] cbsz:1 abid:1
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	v_mfma_f32_32x32x4f16 a[96:127], v[8:9], v[24:25], a[96:127] cbsz:1
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
 	v_mfma_f32_32x32x4f16 a[64:95], v[8:9], v[24:25], a[64:95] cbsz:1 abid:1
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_mfma_f32_32x32x4f16 a[0:31], v[8:9], v[40:41], a[0:31] cbsz:1
+	v_mfma_f32_32x32x4f16 a[0:31], v[8:9], v[32:33], a[0:31] cbsz:1
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_mfma_f32_32x32x4f16 a[32:63], v[8:9], v[40:41], a[32:63] cbsz:1 abid:1
+	v_mfma_f32_32x32x4f16 a[32:63], v[8:9], v[32:33], a[32:63] cbsz:1 abid:1
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	v_mfma_f32_32x32x4f16 a[96:127], v[10:11], v[26:27], a[96:127] cbsz:1
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
@@ -6736,18 +6739,18 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
 	v_mfma_f32_32x32x4f16 a[32:63], v[12:13], v[44:45], a[32:63] cbsz:1 abid:1
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_mfma_f32_32x32x4f16 a[96:127], v[14:15], v[30:31], a[96:127] cbsz:1
+	v_mfma_f32_32x32x4f16 a[96:127], v[34:35], v[14:15], a[96:127] cbsz:1
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_mfma_f32_32x32x4f16 a[64:95], v[14:15], v[30:31], a[64:95] cbsz:1 abid:1
+	v_mfma_f32_32x32x4f16 a[64:95], v[34:35], v[14:15], a[64:95] cbsz:1 abid:1
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_waitcnt lgkmcnt(1)
-	v_mfma_f32_32x32x4f16 a[0:31], v[14:15], v[46:47], a[0:31] cbsz:1
+	v_mfma_f32_32x32x4f16 a[0:31], v[34:35], v[46:47], a[0:31] cbsz:1
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_mfma_f32_32x32x4f16 a[32:63], v[14:15], v[46:47], a[32:63] cbsz:1 abid:1
+	v_mfma_f32_32x32x4f16 a[32:63], v[34:35], v[46:47], a[32:63] cbsz:1 abid:1
 .Ltmp385:
 	.loc	18 0 0 is_stmt 0        ; ./xdlops_gemm.hpp:0:0
 	s_waitcnt vmcnt(0)
-	v_and_or_b32 v112, v0, 31, s22
+	v_and_or_b32 v110, v0, 31, s22
 .Ltmp386:
 	.loc	17 125 67 is_stmt 1     ; ./blockwise_gemm_xdlops.hpp:125:67
 	s_nop 0
@@ -6756,1200 +6759,1196 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	buffer_load_dword v1, off, s[0:3], 0 offset:228 ; 4-byte Folded Reload
 .Ltmp387:
 	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_mul_hi_i32 v2, v112, s8
+	v_mul_hi_i32 v2, v110, s7
 .Ltmp388:
 	.loc	17 122 67               ; ./blockwise_gemm_xdlops.hpp:122:67
-	v_or_b32_e32 v6, 32, v112
+	v_or_b32_e32 v3, 32, v110
 .Ltmp389:
 	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_mul_hi_i32 v4, v6, s8
+	v_mul_hi_i32 v5, v3, s7
 .Ltmp390:
 	.loc	13 1309 44              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1309:44
-	v_or_b32_e32 v117, 64, v112
+	v_or_b32_e32 v109, 64, v110
 .Ltmp391:
 	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
 	v_lshrrev_b32_e32 v7, 31, v2
 	v_ashrrev_i32_e32 v2, 6, v2
 	v_add_u32_e32 v2, v2, v7
-	v_lshrrev_b32_e32 v7, 31, v4
-	v_ashrrev_i32_e32 v4, 6, v4
-	v_add_u32_e32 v4, v4, v7
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_mul_lo_u32 v9, v2, s6
+	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
+	v_lshrrev_b32_e32 v7, 31, v5
+	v_ashrrev_i32_e32 v5, 6, v5
 .Ltmp392:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_mfma_f32_32x32x4f16 a[0:31], v[16:17], v[48:49], a[0:31] cbsz:1
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_mfma_f32_32x32x4f16 a[32:63], v[16:17], v[48:49], a[32:63] cbsz:1 abid:1
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_mfma_f32_32x32x4f16 a[96:127], v[16:17], v[32:33], a[96:127] cbsz:1
+	v_mfma_f32_32x32x4f16 a[0:31], v[36:37], v[48:49], a[0:31] cbsz:1
 .Ltmp393:
-	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_mul_hi_i32 v118, v117, s8
-	s_mov_b32 s22, -1
+	.loc	15 0 0 is_stmt 0        ; ./tensor_descriptor.hpp:0:0
+	v_add_u32_e32 v2, s18, v2
 .Ltmp394:
+	.loc	12 210 34 is_stmt 1     ; ./multi_index_transform.hpp:210:34
+	v_add_u32_e32 v5, v5, v7
+	v_mul_lo_u32 v59, v2, s4
+.Ltmp395:
+	.loc	15 0 0 is_stmt 0        ; ./tensor_descriptor.hpp:0:0
+	v_add_u32_e32 v2, s18, v5
+	v_mul_lo_u32 v114, v2, s4
+.Ltmp396:
+	.loc	10 686 16 is_stmt 1     ; ./amd_xdlops.hpp:686:16
+	v_mfma_f32_32x32x4f16 a[96:127], v[36:37], v[16:17], a[96:127] cbsz:1
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_mfma_f32_32x32x4f16 a[64:95], v[16:17], v[32:33], a[64:95] cbsz:1 abid:1
+	v_mfma_f32_32x32x4f16 a[32:63], v[36:37], v[48:49], a[32:63] cbsz:1 abid:1
+.Ltmp397:
+	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
+	v_mul_hi_i32 v113, v109, s7
+	s_mov_b32 s22, -1
+.Ltmp398:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_mfma_f32_32x32x4f16 a[64:95], v[36:37], v[16:17], a[64:95] cbsz:1 abid:1
+.Ltmp399:
+	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
+	v_lshrrev_b32_e32 v118, 31, v113
+	v_ashrrev_i32_e32 v113, 6, v113
+	v_add_u32_e32 v118, v113, v118
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_mul_lo_u32 v119, v118, s6
+.Ltmp400:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_waitcnt lgkmcnt(0)
-	v_mfma_f32_32x32x4f16 a[0:31], v[18:19], v[50:51], a[0:31] cbsz:1
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_mfma_f32_32x32x4f16 a[32:63], v[18:19], v[50:51], a[32:63] cbsz:1 abid:1
+	v_mfma_f32_32x32x4f16 a[0:31], v[38:39], v[50:51], a[0:31] cbsz:1
+.Ltmp401:
+	.loc	15 0 0 is_stmt 0        ; ./tensor_descriptor.hpp:0:0
+	v_add_u32_e32 v118, s18, v118
+	v_mul_lo_u32 v118, v118, s4
+.Ltmp402:
+	.loc	12 211 18 is_stmt 1     ; ./multi_index_transform.hpp:211:18
+	v_add_u32_e32 v109, v119, v109
+.Ltmp403:
+	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
+	v_mul_hi_i32 v119, v109, s5
+.Ltmp404:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_mfma_f32_32x32x4f16 a[96:127], v[18:19], v[34:35], a[96:127] cbsz:1
+	v_mfma_f32_32x32x4f16 a[96:127], v[38:39], v[18:19], a[96:127] cbsz:1
 	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_mfma_f32_32x32x4f16 a[64:95], v[18:19], v[34:35], a[64:95] cbsz:1 abid:1
-	v_mfma_f32_32x32x4f16 a[32:63], v[20:21], v[52:53], a[32:63] cbsz:1 abid:1
-	v_mfma_f32_32x32x4f16 a[64:95], v[20:21], v[36:37], a[64:95] cbsz:1 abid:1
-.Ltmp395:
+	v_mfma_f32_32x32x4f16 a[32:63], v[38:39], v[50:51], a[32:63] cbsz:1 abid:1
+	v_mfma_f32_32x32x4f16 a[64:95], v[38:39], v[18:19], a[64:95] cbsz:1 abid:1
+	v_mfma_f32_32x32x4f16 a[32:63], v[40:41], v[52:53], a[32:63] cbsz:1 abid:1
+	v_mfma_f32_32x32x4f16 a[64:95], v[40:41], v[20:21], a[64:95] cbsz:1 abid:1
+.Ltmp405:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 7
-	s_nop 7
-	s_nop 0
-.Ltmp396:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v44, a32
-.Ltmp397:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v92, a77
-	v_accvgpr_read_b32 v93, a78
-.Ltmp398:
+	s_nop 5
+.Ltmp406:
 	.loc	17 125 67               ; ./blockwise_gemm_xdlops.hpp:125:67
 	s_waitcnt vmcnt(0)
 	v_and_or_b32 v0, v0, 4, v1
-.Ltmp399:
+.Ltmp407:
 	.loc	13 1306 44              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1306:44
 	v_add_u32_e32 v1, s19, v0
-.Ltmp400:
+.Ltmp408:
 	.loc	17 125 67               ; ./blockwise_gemm_xdlops.hpp:125:67
 	v_or_b32_e32 v0, 32, v0
-.Ltmp401:
+.Ltmp409:
 	.loc	13 1323 46              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1323:46
-	v_ashrrev_i32_e32 v3, 31, v1
+	v_ashrrev_i32_e32 v4, 31, v1
+	v_lshrrev_b32_e32 v4, 29, v4
 	.loc	13 1306 44              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1306:44
 	v_add_u32_e32 v0, s19, v0
 	.loc	13 1323 46              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1323:46
-	v_lshrrev_b32_e32 v3, 29, v3
-	v_ashrrev_i32_e32 v5, 31, v0
-	v_add_u32_e32 v3, v1, v3
-	v_lshrrev_b32_e32 v5, 29, v5
-	v_and_b32_e32 v3, -8, v3
-	v_add_u32_e32 v5, v0, v5
-	v_and_b32_e32 v8, -8, v5
-	v_sub_u32_e32 v1, v1, v3
-.Ltmp402:
-	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
-	v_mul_lo_u32 v5, v2, s4
-.Ltmp403:
+	v_ashrrev_i32_e32 v6, 31, v0
+	v_add_u32_e32 v4, v1, v4
+	v_lshrrev_b32_e32 v6, 29, v6
+	v_and_b32_e32 v4, -8, v4
+	v_add_u32_e32 v6, v0, v6
+	v_sub_u32_e32 v1, v1, v4
+	v_and_b32_e32 v6, -8, v6
 	.loc	13 1324 58              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1324:58
-	v_ashrrev_i32_e32 v9, 31, v1
-	v_lshrrev_b32_e32 v7, 30, v9
-.Ltmp404:
-	.loc	15 0 0 is_stmt 0        ; ./tensor_descriptor.hpp:0:0
-	v_add_u32_e32 v2, s18, v2
-.Ltmp405:
-	.loc	12 211 18 is_stmt 1     ; ./multi_index_transform.hpp:211:18
-	v_mul_lo_u32 v9, v4, s4
-	v_sub_u32_e32 v0, v0, v8
-	v_mul_lo_u32 v40, v2, s7
-.Ltmp406:
-	.loc	15 0 0 is_stmt 0        ; ./tensor_descriptor.hpp:0:0
-	v_add_u32_e32 v2, s18, v4
-.Ltmp407:
-	.loc	13 1324 58 is_stmt 1    ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1324:58
-	v_ashrrev_i32_e32 v4, 31, v0
+	v_ashrrev_i32_e32 v8, 31, v1
+	v_lshrrev_b32_e32 v7, 30, v8
+	v_sub_u32_e32 v0, v0, v6
 	v_add_u32_e32 v1, v1, v7
-.Ltmp408:
-	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
-	v_add_u32_e32 v7, v5, v112
-	v_mul_lo_u32 v114, v2, s7
-.Ltmp409:
-	.loc	13 1324 58              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1324:58
-	v_lshrrev_b32_e32 v2, 30, v4
-	v_add_u32_e32 v0, v0, v2
 .Ltmp410:
-	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_mul_hi_i32 v10, v7, s5
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_mul_lo_u32 v8, v5, s6
 .Ltmp411:
 	.loc	13 1324 58              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1324:58
-	v_and_b32_e32 v0, -4, v0
+	v_ashrrev_i32_e32 v5, 31, v0
+	v_lshrrev_b32_e32 v2, 30, v5
+	v_and_b32_e32 v1, -4, v1
 .Ltmp412:
 	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
-	v_add_u32_e32 v6, v9, v6
+	v_add_u32_e32 v5, v9, v110
 .Ltmp413:
-	.loc	15 0 0 is_stmt 0        ; ./tensor_descriptor.hpp:0:0
-	v_add_u32_e32 v0, v0, v8
+	.loc	12 369 41               ; ./multi_index_transform.hpp:369:41
+	v_add_u32_e32 v1, v1, v4
 .Ltmp414:
-	.loc	12 210 34 is_stmt 1     ; ./multi_index_transform.hpp:210:34
-	v_mul_hi_i32 v8, v6, s5
-	v_add_u32_e32 v9, v10, v7
-	v_lshrrev_b32_e32 v10, 31, v9
-	v_ashrrev_i32_e32 v9, 3, v9
-	v_add_u32_e32 v9, v9, v10
-	v_add_u32_e32 v8, v8, v6
-	v_lshrrev_b32_e32 v10, 31, v8
-	v_ashrrev_i32_e32 v8, 3, v8
-	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
-	v_mul_lo_u32 v11, v9, -14
-	v_mul_lo_u32 v56, v9, s6
 	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_add_u32_e32 v8, v8, v10
+	v_mul_hi_i32 v4, v5, s5
 .Ltmp415:
-	.loc	13 1324 58              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1324:58
-	v_and_b32_e32 v1, -4, v1
-.Ltmp416:
 	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
-	v_mul_lo_u32 v9, v8, -14
-	v_mul_lo_u32 v115, v8, s6
+	v_add_u32_e32 v7, v8, v3
+.Ltmp416:
+	.loc	13 1324 58              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1324:58
+	v_add_u32_e32 v0, v0, v2
+	v_mul_lo_u32 v2, v1, s11
 .Ltmp417:
-	.loc	15 0 0 is_stmt 0        ; ./tensor_descriptor.hpp:0:0
-	v_add_u32_e32 v5, v1, v3
-	v_add_lshl_u32 v49, v11, v7, 10
+	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
+	v_add_u32_e32 v8, v4, v5
+	v_lshrrev_b32_e32 v9, 31, v8
+	v_ashrrev_i32_e32 v8, 3, v8
+	v_add_u32_e32 v8, v8, v9
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_mul_lo_u32 v10, v8, -14
+	v_mul_lo_u32 v99, v8, 14
 .Ltmp418:
-	.loc	15 85 58 is_stmt 1      ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v7, v5, v40, v56
+	.loc	13 1324 58              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1324:58
+	v_and_b32_e32 v0, -4, v0
 .Ltmp419:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v86, v7, v49, 1
+	.loc	12 369 41               ; ./multi_index_transform.hpp:369:41
+	v_add_u32_e32 v0, v0, v6
 .Ltmp420:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v7, a0
-	v_add_lshl_u32 v116, v9, v6, 10
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_add_u32_e32 v100, v10, v5
 .Ltmp421:
 	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v6, v5, v114, v115
+	v_add3_u32 v5, v2, v100, v59
 .Ltmp422:
 	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v69, v6, v116, 1
+	v_add_lshl_u32 v83, v5, v99, 1
 .Ltmp423:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add_u32_e32 v4, 8, v5
-	v_add_u32_e32 v3, 16, v5
-	v_add_u32_e32 v2, 24, v5
-	v_add_u32_e32 v1, 8, v0
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v5, a0
 .Ltmp424:
-	.loc	15 85 58 is_stmt 0      ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v8, v4, v40, v56
-	v_add3_u32 v10, v3, v40, v56
-	v_add3_u32 v11, v2, v40, v56
-	v_add3_u32 v12, v0, v40, v56
-	v_add3_u32 v13, v1, v40, v56
-.Ltmp425:
-	.loc	5 627 61 is_stmt 1      ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v76, v8, v49, 1
-	v_add_lshl_u32 v73, v10, v49, 1
-	v_add_lshl_u32 v71, v11, v49, 1
-.Ltmp426:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v10, v3, v114, v115
-.Ltmp427:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v9, v12, v49, 1
-	v_add_lshl_u32 v8, v13, v49, 1
-.Ltmp428:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v11, v2, v114, v115
-.Ltmp429:
-	.loc	13 1309 44              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1309:44
-	v_or_b32_e32 v112, 0x60, v112
-.Ltmp430:
 	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_mul_hi_i32 v120, v112, s8
+	v_mul_hi_i32 v6, v7, s5
+	v_add_u32_e32 v4, s8, v2
+	v_mul_lo_u32 v0, v0, s11
+.Ltmp425:
+	.loc	13 1309 44              ; ./gridwise_gemm_xdlops_fp16_bfp16.hpp:1309:44
+	v_or_b32_e32 v110, 0x60, v110
+.Ltmp426:
+	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
+	v_add_u32_e32 v6, v6, v7
+	v_lshrrev_b32_e32 v9, 31, v6
+	v_ashrrev_i32_e32 v6, 3, v6
+	v_add_u32_e32 v6, v6, v9
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_mul_lo_u32 v8, v6, -14
+	v_mul_lo_u32 v115, v6, 14
+.Ltmp427:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v6, v4, v100, v59
+.Ltmp428:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v75, v6, v99, 1
+.Ltmp429:
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_add_u32_e32 v116, v8, v7
+.Ltmp430:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v6, v4, v116, v114
 .Ltmp431:
 	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v50, v10, v116, 1
-	v_add_lshl_u32 v10, v11, v116, 1
+	v_add_lshl_u32 v61, v6, v115, 1
 .Ltmp432:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v11, a63
-	v_accvgpr_read_b32 v12, a60
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v7, v0, v100, v59
 .Ltmp433:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v97, a81
-	v_accvgpr_read_b32 v98, a82
-	v_accvgpr_read_b32 v102, a85
-	v_accvgpr_read_b32 v103, a86
-	v_accvgpr_read_b32 v105, a89
-	v_accvgpr_read_b32 v106, a90
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v8, v7, v99, 1
 .Ltmp434:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v68, a64
-	v_accvgpr_read_b32 v67, a67
-	s_setreg_imm32_b32 hwreg(HW_REG_MODE, 2, 2), 0
-/*
+	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
+	v_mul_hi_i32 v121, v110, s7
+	v_add_u32_e32 v3, s9, v2
+	v_add_u32_e32 v1, s10, v2
 .Ltmp435:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v68, v68
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v9, v3, v100, v59
+	v_add3_u32 v10, v1, v100, v59
 .Ltmp436:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v81, a66
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v73, v9, v99, 1
+	v_add_lshl_u32 v71, v10, v99, 1
 .Ltmp437:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v9, v3, v116, v114
+	v_add3_u32 v10, v1, v116, v114
+.Ltmp438:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v48, v9, v115, 1
+	v_add_lshl_u32 v9, v10, v115, 1
+.Ltmp439:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v10, a63
+	v_accvgpr_read_b32 v11, a60
+.Ltmp440:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v89, a73
+	v_accvgpr_read_b32 v90, a74
+	v_accvgpr_read_b32 v94, a77
+	v_accvgpr_read_b32 v95, a78
+	v_accvgpr_read_b32 v103, a85
+	v_accvgpr_read_b32 v104, a86
+	v_accvgpr_read_b32 v117, a89
+	v_accvgpr_read_b32 v120, a90
+.Ltmp441:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v67, a64
+	v_accvgpr_read_b32 v66, a67
+	s_setreg_imm32_b32 hwreg(HW_REG_MODE, 2, 2), 0
+.Ltmp442:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
 	v_cvt_f16_f32_e32 v67, v67
-.Ltmp438:
+.Ltmp443:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v80, a65
-.Ltmp439:
+	v_accvgpr_read_b32 v78, a66
+.Ltmp444:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v66, v66
+.Ltmp445:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v77, a65
+.Ltmp446:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v78, v78
+	v_cvt_f16_f32_e32 v77, v77
+.Ltmp447:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v64, a68
+	v_accvgpr_read_b32 v62, a71
+.Ltmp448:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v64, v64
+.Ltmp449:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v84, a70
+.Ltmp450:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v62, v62
+.Ltmp451:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v82, a69
+.Ltmp452:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v84, v84
+	v_cvt_f16_f32_e32 v82, v82
+.Ltmp453:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v60, a72
+	v_accvgpr_read_b32 v57, a75
+.Ltmp454:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v60, v60
+	v_cvt_f16_f32_e32 v57, v57
+.Ltmp455:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v55, a76
+	v_accvgpr_read_b32 v51, a79
+.Ltmp456:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v55, v55
+	v_cvt_f16_f32_e32 v51, v51
+.Ltmp457:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v50, a80
+	v_accvgpr_read_b32 v46, a83
+.Ltmp458:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v50, v50
+	v_cvt_f16_f32_e32 v46, v46
+.Ltmp459:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v45, a84
+	v_accvgpr_read_b32 v39, a87
+.Ltmp460:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v45, v45
+	v_cvt_f16_f32_e32 v39, v39
+.Ltmp461:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v37, a88
+	v_accvgpr_read_b32 v32, a91
+.Ltmp462:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v37, v37
+	v_cvt_f16_f32_e32 v32, v32
+.Ltmp463:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v30, a92
+	v_accvgpr_read_b32 v26, a95
+.Ltmp464:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v30, v30
+	v_cvt_f16_f32_e32 v26, v26
+.Ltmp465:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v42, a32
+	v_accvgpr_read_b32 v38, a35
+.Ltmp466:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v42, v42
+	v_cvt_f16_f32_e32 v38, v38
+.Ltmp467:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v36, a36
+	v_accvgpr_read_b32 v31, a39
+.Ltmp468:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v36, v36
+	v_cvt_f16_f32_e32 v31, v31
+.Ltmp469:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v29, a40
+	v_accvgpr_read_b32 v25, a43
+.Ltmp470:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v29, v29
+	v_cvt_f16_f32_e32 v25, v25
+.Ltmp471:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v24, a44
+.Ltmp472:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v24, v24
+.Ltmp473:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v17, a51
+.Ltmp474:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v17, v17
+.Ltmp475:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v16, a52
+	v_accvgpr_read_b32 v14, a55
+.Ltmp476:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v16, v16
+	v_cvt_f16_f32_e32 v14, v14
+.Ltmp477:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v13, a56
+	v_accvgpr_read_b32 v12, a59
+.Ltmp478:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v13, v13
+	v_cvt_f16_f32_e32 v12, v12
+.Ltmp479:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp480:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	s_nop 0
+	buffer_store_dword v5, off, s[0:3], 0 offset:16 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a1
+.Ltmp481:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp482:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:20 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a2
+.Ltmp483:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp484:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:24 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a3
+.Ltmp485:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp486:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:28 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a4
+.Ltmp487:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp488:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:32 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a5
+.Ltmp489:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp490:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:36 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a6
+.Ltmp491:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp492:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:40 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a7
+.Ltmp493:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp494:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:44 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a8
+.Ltmp495:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp496:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:48 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a9
+.Ltmp497:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp498:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:52 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a10
+.Ltmp499:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp500:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:56 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a11
+.Ltmp501:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp502:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:60 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a12
+.Ltmp503:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp504:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:64 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a13
+.Ltmp505:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp506:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:68 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a14
+.Ltmp507:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp508:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:72 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a15
+.Ltmp509:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp510:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:76 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a16
+.Ltmp511:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp512:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:80 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a17
+.Ltmp513:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp514:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:84 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a18
+.Ltmp515:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp516:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:88 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a19
+.Ltmp517:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp518:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:92 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a20
+.Ltmp519:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp520:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:96 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a21
+.Ltmp521:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp522:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:100 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a22
+.Ltmp523:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp524:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:104 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a23
+.Ltmp525:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp526:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:108 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a24
+.Ltmp527:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp528:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:112 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a25
+.Ltmp529:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp530:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:116 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a26
+.Ltmp531:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp532:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:120 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a27
+.Ltmp533:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp534:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:124 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a28
+.Ltmp535:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp536:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:128 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a29
+.Ltmp537:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp538:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:132 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a30
+.Ltmp539:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp540:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:136 ; 4-byte Folded Spill
+	v_accvgpr_read_b32 v5, a31
+.Ltmp541:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 1
+.Ltmp542:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	buffer_store_dword v5, off, s[0:3], 0 offset:140 ; 4-byte Folded Spill
+.Ltmp543:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v5, v2, v116, v114
+.Ltmp544:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v68, v5, v115, 1
+.Ltmp545:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_mfma_f32_32x32x4f16 a[0:31], v[40:41], v[20:21], a[96:127] cbsz:1
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v21, a47
+.Ltmp546:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v21, v21
+.Ltmp547:
+	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
+	v_accvgpr_read_b32 v20, a48
+.Ltmp548:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v20, v20
+.Ltmp549:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp550:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	s_nop 0
+	buffer_load_dword v5, off, s[0:3], 0 offset:16 ; 4-byte Folded Reload
+.Ltmp551:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 7
+	s_nop 3
+.Ltmp552:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_accvgpr_read_b32 v6, a0
+.Ltmp553:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v6, v6
+.Ltmp554:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v34, a2
+	v_accvgpr_read_b32 v7, a1
+.Ltmp555:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v34, v34
+	v_cvt_f16_f32_e32 v7, v7
+.Ltmp556:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_accvgpr_read_b32 v93, a7
+	v_accvgpr_read_b32 v96, a4
+.Ltmp557:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v108, a6
+	v_accvgpr_read_b32 v107, a5
+.Ltmp558:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v96, v96
+	v_cvt_f16_f32_e32 v93, v93
+	v_cvt_f16_f32_e32 v108, v108
+	v_cvt_f16_f32_e32 v107, v107
+.Ltmp559:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_accvgpr_read_b32 v88, a8
+	v_accvgpr_read_b32 v87, a11
+.Ltmp560:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v106, a10
+	v_accvgpr_read_b32 v105, a9
+.Ltmp561:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v87, v87
+.Ltmp562:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_accvgpr_read_b32 v79, a12
+	v_accvgpr_read_b32 v76, a15
+.Ltmp563:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v102, a14
+	v_accvgpr_read_b32 v101, a13
+.Ltmp564:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v76, v76
+	v_cvt_f16_f32_e32 v101, v101
+.Ltmp565:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_accvgpr_read_b32 v74, a16
+	v_accvgpr_read_b32 v72, a19
+.Ltmp566:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v98, a18
+	v_accvgpr_read_b32 v97, a17
+.Ltmp567:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v72, v72
+	v_cvt_f16_f32_e32 v97, v97
+.Ltmp568:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_accvgpr_read_b32 v70, a20
+	v_accvgpr_read_b32 v69, a23
+.Ltmp569:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v92, a22
+	v_accvgpr_read_b32 v91, a21
+.Ltmp570:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v69, v69
+	v_cvt_f16_f32_e32 v91, v91
+.Ltmp571:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_accvgpr_read_b32 v63, a27
+	v_accvgpr_read_b32 v65, a24
+.Ltmp572:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v86, a26
+	v_accvgpr_read_b32 v85, a25
+.Ltmp573:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v65, v65
+	v_cvt_f16_f32_e32 v63, v63
+.Ltmp574:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_accvgpr_read_b32 v44, a31
+	v_accvgpr_read_b32 v56, a28
+.Ltmp575:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v81, a30
+.Ltmp576:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v56, v56
+	v_cvt_f16_f32_e32 v44, v44
+.Ltmp577:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v80, a29
+.Ltmp578:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
 	v_cvt_f16_f32_e32 v81, v81
 	v_cvt_f16_f32_e32 v80, v80
-.Ltmp440:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v65, a68
-	v_accvgpr_read_b32 v63, a71
-.Ltmp441:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v65, v65
-.Ltmp442:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v79, a70
-.Ltmp443:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v63, v63
-.Ltmp444:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v78, a69
-.Ltmp445:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v79, v79
-	v_cvt_f16_f32_e32 v78, v78
-.Ltmp446:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v61, a72
-	v_accvgpr_read_b32 v59, a75
-.Ltmp447:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v61, v61
-	v_cvt_f16_f32_e32 v59, v59
-.Ltmp448:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v82, a73
-.Ltmp449:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v82, v82
-.Ltmp450:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v57, a76
-.Ltmp451:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v57, v57
-.Ltmp452:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v47, a83
-.Ltmp453:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v47, v47
-.Ltmp454:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v46, a84
-	v_accvgpr_read_b32 v41, a87
-.Ltmp455:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v46, v46
-	v_cvt_f16_f32_e32 v41, v41
-.Ltmp456:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v38, a88
-	v_accvgpr_read_b32 v34, a91
-.Ltmp457:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v38, v38
-	v_cvt_f16_f32_e32 v34, v34
-.Ltmp458:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v32, a92
-	v_accvgpr_read_b32 v27, a95
-.Ltmp459:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v32, v32
-	v_cvt_f16_f32_e32 v27, v27
-.Ltmp460:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v39, a35
-.Ltmp461:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v44, v44
-	v_cvt_f16_f32_e32 v39, v39
-.Ltmp462:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v33, a39
-.Ltmp463:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v33, v33
-.Ltmp464:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v31, a40
-	v_accvgpr_read_b32 v26, a43
-.Ltmp465:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v31, v31
-	v_cvt_f16_f32_e32 v26, v26
-.Ltmp466:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v25, a44
-	v_accvgpr_read_b32 v22, a47
-.Ltmp467:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v25, v25
-	v_cvt_f16_f32_e32 v22, v22
-.Ltmp468:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v18, a51
-.Ltmp469:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v18, v18
-.Ltmp470:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v17, a52
-	v_accvgpr_read_b32 v15, a55
-.Ltmp471:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v17, v17
-	v_cvt_f16_f32_e32 v15, v15
-.Ltmp472:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v14, a56
-	v_accvgpr_read_b32 v13, a59
-.Ltmp473:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v14, v14
-	v_cvt_f16_f32_e32 v13, v13
-.Ltmp474:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp475:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	s_nop 0
-	buffer_store_dword v7, off, s[0:3], 0 offset:16 ; 4-byte Folded Spill
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	buffer_load_dword v6, off, s[0:3], 0 offset:16 ; 4-byte Folded Reload
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v7, a1
-.Ltmp476:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp477:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:20 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a2
-.Ltmp478:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp479:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:24 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a3
-.Ltmp480:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp481:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:28 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a4
-.Ltmp482:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp483:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:32 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a5
-.Ltmp484:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp485:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:36 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a6
-.Ltmp486:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp487:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:40 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a7
-.Ltmp488:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp489:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:44 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a8
-.Ltmp490:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp491:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:48 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a9
-.Ltmp492:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp493:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:52 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a10
-.Ltmp494:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp495:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:56 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a11
-.Ltmp496:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp497:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:60 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a12
-.Ltmp498:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp499:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:64 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a13
-.Ltmp500:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp501:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:68 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a14
-.Ltmp502:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp503:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:72 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a15
-.Ltmp504:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp505:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:76 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a16
-.Ltmp506:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp507:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:80 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a17
-.Ltmp508:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp509:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:84 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a18
-.Ltmp510:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp511:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:88 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a19
-.Ltmp512:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp513:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:92 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a20
-.Ltmp514:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp515:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:96 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a21
-.Ltmp516:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp517:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:100 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a22
-.Ltmp518:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp519:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:104 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a23
-.Ltmp520:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp521:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:108 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a24
-.Ltmp522:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp523:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:112 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a25
-.Ltmp524:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp525:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:116 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a26
-.Ltmp526:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp527:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:120 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a27
-.Ltmp528:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp529:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:124 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a28
-.Ltmp530:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp531:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:128 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a29
-.Ltmp532:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp533:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:132 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a30
-.Ltmp534:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp535:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:136 ; 4-byte Folded Spill
-	v_accvgpr_read_b32 v7, a31
-.Ltmp536:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp537:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	buffer_store_dword v7, off, s[0:3], 0 offset:140 ; 4-byte Folded Spill
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_mfma_f32_32x32x4f16 a[0:31], v[20:21], v[36:37], a[96:127] cbsz:1
-.Ltmp538:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v7, v4, v114, v115
-.Ltmp539:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v62, v7, v116, 1
-.Ltmp540:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v37, a36
-.Ltmp541:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v37, v37
-.Ltmp542:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 7
-	s_nop 0
-.Ltmp543:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	s_waitcnt vmcnt(31)
-	v_accvgpr_write_b32 a96, v6
-.Ltmp544:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp545:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:20 ; 4-byte Folded Reload
-.Ltmp546:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 1
-.Ltmp547:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v7, a0
-.Ltmp548:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v7, v7
-.Ltmp549:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v87, a2
-	v_accvgpr_read_b32 v29, a1
-.Ltmp550:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v87, v87
-	v_cvt_f16_f32_e32 v29, v29
-.Ltmp551:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v96, a7
-	v_accvgpr_read_b32 v99, a4
-.Ltmp552:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v111, a6
-	v_accvgpr_read_b32 v110, a5
-.Ltmp553:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v99, v99
-	v_cvt_f16_f32_e32 v96, v96
-	v_cvt_f16_f32_e32 v111, v111
-	v_cvt_f16_f32_e32 v110, v110
-.Ltmp554:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v91, a8
-	v_accvgpr_read_b32 v90, a11
-.Ltmp555:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v109, a10
-	v_accvgpr_read_b32 v108, a9
-.Ltmp556:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v90, v90
-.Ltmp557:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v83, a12
-	v_accvgpr_read_b32 v77, a15
-.Ltmp558:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v107, a14
-	v_accvgpr_read_b32 v104, a13
-.Ltmp559:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v75, a16
-	v_accvgpr_read_b32 v74, a19
-.Ltmp560:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v101, a18
-	v_accvgpr_read_b32 v100, a17
-.Ltmp561:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v74, v74
-	v_cvt_f16_f32_e32 v100, v100
-.Ltmp562:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v72, a20
-	v_accvgpr_read_b32 v70, a23
-.Ltmp563:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v95, a22
-	v_accvgpr_read_b32 v94, a21
-.Ltmp564:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v70, v70
-	v_cvt_f16_f32_e32 v94, v94
-.Ltmp565:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v64, a27
-	v_accvgpr_read_b32 v66, a24
-.Ltmp566:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v89, a26
-	v_accvgpr_read_b32 v88, a25
-.Ltmp567:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v66, v66
-	v_cvt_f16_f32_e32 v64, v64
-.Ltmp568:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v45, a31
-	v_accvgpr_read_b32 v58, a28
-.Ltmp569:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v85, a30
-.Ltmp570:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v58, v58
-	v_cvt_f16_f32_e32 v45, v45
-.Ltmp571:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v84, a29
-.Ltmp572:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v85, v85
-	v_cvt_f16_f32_e32 v84, v84
-.Ltmp573:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a97, v6
-.Ltmp574:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp575:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:24 ; 4-byte Folded Reload
-	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a98, v6
-.Ltmp576:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp577:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:28 ; 4-byte Folded Reload
-	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a99, v6
-.Ltmp578:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
 .Ltmp579:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:32 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a100, v6
+	v_accvgpr_write_b32 a96, v5
 .Ltmp580:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp581:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:36 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:20 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a101, v6
+	v_accvgpr_write_b32 a97, v5
 .Ltmp582:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp583:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:40 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:24 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a102, v6
+	v_accvgpr_write_b32 a98, v5
 .Ltmp584:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp585:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:44 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:28 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a103, v6
+	v_accvgpr_write_b32 a99, v5
 .Ltmp586:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp587:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:48 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:32 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a104, v6
+	v_accvgpr_write_b32 a100, v5
 .Ltmp588:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp589:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:52 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:36 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a105, v6
+	v_accvgpr_write_b32 a101, v5
 .Ltmp590:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp591:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:56 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:40 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a106, v6
+	v_accvgpr_write_b32 a102, v5
 .Ltmp592:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp593:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:60 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:44 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a107, v6
+	v_accvgpr_write_b32 a103, v5
 .Ltmp594:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp595:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:64 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:48 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a108, v6
+	v_accvgpr_write_b32 a104, v5
 .Ltmp596:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp597:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:68 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:52 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a109, v6
+	v_accvgpr_write_b32 a105, v5
 .Ltmp598:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp599:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:72 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:56 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a110, v6
+	v_accvgpr_write_b32 a106, v5
 .Ltmp600:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp601:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:76 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:60 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a111, v6
+	v_accvgpr_write_b32 a107, v5
 .Ltmp602:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp603:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:80 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:64 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a112, v6
+	v_accvgpr_write_b32 a108, v5
 .Ltmp604:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp605:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:84 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:68 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a113, v6
+	v_accvgpr_write_b32 a109, v5
 .Ltmp606:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp607:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:88 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:72 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a114, v6
+	v_accvgpr_write_b32 a110, v5
 .Ltmp608:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp609:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:92 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:76 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a115, v6
+	v_accvgpr_write_b32 a111, v5
 .Ltmp610:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp611:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:96 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:80 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a116, v6
+	v_accvgpr_write_b32 a112, v5
 .Ltmp612:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp613:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:100 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:84 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a117, v6
+	v_accvgpr_write_b32 a113, v5
 .Ltmp614:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp615:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:104 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:88 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a118, v6
+	v_accvgpr_write_b32 a114, v5
 .Ltmp616:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp617:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:108 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:92 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a119, v6
+	v_accvgpr_write_b32 a115, v5
 .Ltmp618:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp619:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:112 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:96 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a120, v6
+	v_accvgpr_write_b32 a116, v5
 .Ltmp620:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp621:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:116 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:100 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a121, v6
+	v_accvgpr_write_b32 a117, v5
 .Ltmp622:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp623:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:120 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:104 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a122, v6
+	v_accvgpr_write_b32 a118, v5
 .Ltmp624:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp625:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:124 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:108 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a123, v6
+	v_accvgpr_write_b32 a119, v5
 .Ltmp626:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp627:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:128 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:112 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a124, v6
+	v_accvgpr_write_b32 a120, v5
 .Ltmp628:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp629:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:132 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:116 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a125, v6
+	v_accvgpr_write_b32 a121, v5
 .Ltmp630:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp631:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:136 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:120 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a126, v6
+	v_accvgpr_write_b32 a122, v5
 .Ltmp632:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp633:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
 	s_nop 0
-	buffer_load_dword v6, off, s[0:3], 0 offset:140 ; 4-byte Folded Reload
+	buffer_load_dword v5, off, s[0:3], 0 offset:124 ; 4-byte Folded Reload
 	s_waitcnt vmcnt(0)
-	v_accvgpr_write_b32 a127, v6
-	v_accvgpr_read_b32 v6, a3
+	v_accvgpr_write_b32 a123, v5
 .Ltmp634:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v6, v6
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
 .Ltmp635:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_mfma_f32_32x32x4f16 a[96:127], v[20:21], v[52:53], a[96:127] cbsz:1
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v53, a79
+	s_nop 0
+	buffer_load_dword v5, off, s[0:3], 0 offset:128 ; 4-byte Folded Reload
+	s_waitcnt vmcnt(0)
+	v_accvgpr_write_b32 a124, v5
 .Ltmp636:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp637:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	s_nop 0
+	buffer_load_dword v5, off, s[0:3], 0 offset:132 ; 4-byte Folded Reload
+	s_waitcnt vmcnt(0)
+	v_accvgpr_write_b32 a125, v5
+.Ltmp638:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp639:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	s_nop 0
+	buffer_load_dword v5, off, s[0:3], 0 offset:136 ; 4-byte Folded Reload
+	s_waitcnt vmcnt(0)
+	v_accvgpr_write_b32 a126, v5
+.Ltmp640:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp641:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	s_nop 0
+	buffer_load_dword v5, off, s[0:3], 0 offset:140 ; 4-byte Folded Reload
+	s_waitcnt vmcnt(0)
+	v_accvgpr_write_b32 a127, v5
+	v_accvgpr_read_b32 v5, a3
+.Ltmp642:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v5, v5
+.Ltmp643:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_mfma_f32_32x32x4f16 a[96:127], v[40:41], v[52:53], a[96:127] cbsz:1
+.Ltmp644:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
 	s_nop 0
 	s_nop 0
-	buffer_store_short v7, off, s[0:3], 0 offset:8
-	buffer_store_short v6, off, s[0:3], 0 offset:14
-	buffer_store_short v87, off, s[0:3], 0 offset:12
-	buffer_store_short v29, off, s[0:3], 0 offset:10
-.Ltmp637:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add_u32_e32 v6, 16, v0
-.Ltmp638:
-	.loc	15 85 58 is_stmt 0      ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v7, v6, v40, v56
-.Ltmp639:
-	.loc	5 627 61 is_stmt 1      ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v29, v7, v49, 1
-.Ltmp640:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add_u32_e32 v7, 24, v0
-.Ltmp641:
-	.loc	15 85 58 is_stmt 0      ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v40, v7, v40, v56
-	v_add3_u32 v56, v1, v114, v115
-	v_add3_u32 v119, v6, v114, v115
-.Ltmp642:
-	.loc	5 627 61 is_stmt 1      ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v40, v40, v49, 1
-.Ltmp643:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v49, v0, v114, v115
-	v_add3_u32 v114, v7, v114, v115
-.Ltmp644:
-	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_lshrrev_b32_e32 v115, 31, v118
-	v_ashrrev_i32_e32 v118, 6, v118
-	v_add_u32_e32 v115, v118, v115
-	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
-	v_mul_lo_u32 v118, v115, s4
+	buffer_store_short v6, off, s[0:3], 0 offset:8
+	buffer_store_short v5, off, s[0:3], 0 offset:14
+	buffer_store_short v34, off, s[0:3], 0 offset:12
+	buffer_store_short v7, off, s[0:3], 0 offset:10
+	v_add_u32_e32 v5, s8, v0
 .Ltmp645:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v49, v49, v116, 1
-	v_add_lshl_u32 v56, v56, v116, 1
-	v_add_lshl_u32 v119, v119, v116, 1
-	v_add_lshl_u32 v114, v114, v116, 1
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v6, v5, v100, v59
 .Ltmp646:
-	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
-	v_add_u32_e32 v116, v118, v117
-	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_lshrrev_b32_e32 v118, 31, v120
-	v_ashrrev_i32_e32 v120, 6, v120
-	v_add_u32_e32 v118, v120, v118
-	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
-	v_mul_lo_u32 v120, v118, s4
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v34, v6, v99, 1
+	v_add_u32_e32 v6, s9, v0
 .Ltmp647:
-	.loc	15 0 0 is_stmt 0        ; ./tensor_descriptor.hpp:0:0
-	v_add_u32_e32 v118, s18, v118
-	v_mul_lo_u32 v118, v118, s7
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v7, v6, v100, v59
 .Ltmp648:
-	.loc	16 133 64 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v124, a106
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v43, v7, v99, 1
+	v_add_u32_e32 v7, s10, v0
 .Ltmp649:
-	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
-	v_add_u32_e32 v112, v120, v112
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v53, v7, v100, v59
+	v_add3_u32 v59, v0, v116, v114
+	v_add3_u32 v112, v5, v116, v114
+	v_add3_u32 v113, v6, v116, v114
+	v_add3_u32 v114, v7, v116, v114
 .Ltmp650:
-	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_mul_hi_i32 v120, v112, s5
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v59, v59, v115, 1
+	v_add_lshl_u32 v112, v112, v115, 1
+	v_add_lshl_u32 v113, v113, v115, 1
+	v_add_lshl_u32 v114, v114, v115, 1
 .Ltmp651:
+	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
+	v_add_u32_e32 v115, v119, v109
+.Ltmp652:
+	.loc	12 210 34 is_stmt 0     ; ./multi_index_transform.hpp:210:34
+	v_lshrrev_b32_e32 v116, 31, v121
+	v_ashrrev_i32_e32 v119, 6, v121
+	v_add_u32_e32 v116, v119, v116
+	.loc	12 211 18 is_stmt 1     ; ./multi_index_transform.hpp:211:18
+	v_mul_lo_u32 v119, v116, s6
+.Ltmp653:
+	.loc	15 0 0 is_stmt 0        ; ./tensor_descriptor.hpp:0:0
+	v_add_u32_e32 v116, s18, v116
+	v_mul_lo_u32 v116, v116, s4
+.Ltmp654:
+	.loc	5 627 61 is_stmt 1      ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v53, v53, v99, 1
+.Ltmp655:
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_add_u32_e32 v110, v119, v110
+.Ltmp656:
+	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
+	v_mul_hi_i32 v119, v110, s5
+.Ltmp657:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v99, a81
+	v_accvgpr_read_b32 v100, a82
+	v_accvgpr_read_b32 v124, a106
+.Ltmp658:
+	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
+	v_add_u32_e32 v119, v119, v110
+	v_lshrrev_b32_e32 v122, 31, v119
+	v_ashrrev_i32_e32 v119, 3, v119
+	v_add_u32_e32 v119, v119, v122
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_mul_lo_u32 v122, v119, -14
+	v_mul_lo_u32 v119, v119, 14
+.Ltmp659:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
 	v_accvgpr_read_b32 v125, a109
-	v_accvgpr_read_b32 v87, a74
-.Ltmp652:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v87, v87
-.Ltmp653:
-	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_add_u32_e32 v120, v120, v112
-	v_lshrrev_b32_e32 v122, 31, v120
-	v_ashrrev_i32_e32 v120, 3, v120
-	v_add_u32_e32 v120, v120, v122
-	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
-	v_mul_lo_u32 v122, v120, -14
-	v_mul_lo_u32 v120, v120, s6
-.Ltmp654:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v53, v53
-.Ltmp655:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v52, a80
-	v_add_lshl_u32 v122, v122, v112, 10
-.Ltmp656:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v112, v7, v118, v120
-.Ltmp657:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v123, v112, v122, 1
-.Ltmp658:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v52, v52
-.Ltmp659:
-	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v60, a96
-	v_accvgpr_read_b32 v55, a99
 .Ltmp660:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v60, v60
-	v_cvt_f16_f32_e32 v55, v55
-.Ltmp661:
-	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_mul_hi_i32 v117, v116, s5
-.Ltmp662:
-	.loc	15 0 0 is_stmt 0        ; ./tensor_descriptor.hpp:0:0
-	v_add_u32_e32 v115, s18, v115
-	v_mul_lo_u32 v115, v115, s7
-.Ltmp663:
-	.loc	10 686 16 is_stmt 1     ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v54, a100
-.Ltmp664:
-	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
-	v_add_u32_e32 v117, v117, v116
-	v_lshrrev_b32_e32 v121, 31, v117
-	v_ashrrev_i32_e32 v117, 3, v117
-	v_add_u32_e32 v117, v117, v121
-	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
-	v_mul_lo_u32 v121, v117, -14
-	v_mul_lo_u32 v117, v117, s6
-.Ltmp665:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v51, a103
-.Ltmp666:
+	v_accvgpr_read_b32 v58, a96
+.Ltmp661:
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_add_u32_e32 v122, v122, v110
+.Ltmp662:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v110, v7, v122, v116
+.Ltmp663:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v123, v110, v119, 1
+.Ltmp664:
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_accvgpr_read_b32 v54, a99
+.Ltmp665:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v58, v58
 	v_cvt_f16_f32_e32 v54, v54
-	v_cvt_f16_f32_e32 v51, v51
+.Ltmp666:
+	.loc	12 210 34               ; ./multi_index_transform.hpp:210:34
+	v_lshrrev_b32_e32 v121, 31, v115
+	v_ashrrev_i32_e32 v115, 3, v115
+	v_add_u32_e32 v115, v115, v121
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_mul_lo_u32 v121, v115, -14
+	v_mul_lo_u32 v115, v115, 14
 .Ltmp667:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v48, a104
-	v_accvgpr_read_b32 v43, a107
+	v_accvgpr_read_b32 v52, a100
+	v_accvgpr_read_b32 v49, a103
 .Ltmp668:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v48, v48
-	v_cvt_f16_f32_e32 v43, v43
+	v_cvt_f16_f32_e32 v52, v52
+	v_cvt_f16_f32_e32 v49, v49
 .Ltmp669:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v42, a108
-	v_accvgpr_read_b32 v36, a111
+	v_accvgpr_read_b32 v47, a104
+	v_accvgpr_read_b32 v41, a107
 .Ltmp670:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v42, v42
-	v_cvt_f16_f32_e32 v36, v36
+	v_cvt_f16_f32_e32 v47, v47
+	v_cvt_f16_f32_e32 v41, v41
 .Ltmp671:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v35, a112
-	v_accvgpr_read_b32 v30, a115
+	v_accvgpr_read_b32 v40, a108
+	v_accvgpr_read_b32 v35, a111
 .Ltmp672:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v40, v40
 	v_cvt_f16_f32_e32 v35, v35
-	v_cvt_f16_f32_e32 v30, v30
 .Ltmp673:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v28, a116
-	v_accvgpr_read_b32 v24, a119
+	v_accvgpr_read_b32 v33, a112
+	v_accvgpr_read_b32 v28, a115
 .Ltmp674:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v33, v33
 	v_cvt_f16_f32_e32 v28, v28
-	v_cvt_f16_f32_e32 v24, v24
 .Ltmp675:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v23, a120
-	v_accvgpr_read_b32 v20, a123
+	v_accvgpr_read_b32 v27, a116
+	v_accvgpr_read_b32 v23, a119
 .Ltmp676:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v27, v27
 	v_cvt_f16_f32_e32 v23, v23
-	v_cvt_f16_f32_e32 v20, v20
 .Ltmp677:
 	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
-	v_accvgpr_read_b32 v19, a124
-	v_accvgpr_read_b32 v16, a127
+	v_accvgpr_read_b32 v22, a120
+	v_accvgpr_read_b32 v19, a123
 .Ltmp678:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v22, v22
 	v_cvt_f16_f32_e32 v19, v19
-	v_cvt_f16_f32_e32 v16, v16
 .Ltmp679:
-	.loc	10 687 16               ; ./amd_xdlops.hpp:687:16
-	v_accvgpr_read_b32 v21, a48
+	.loc	10 686 16               ; ./amd_xdlops.hpp:686:16
+	v_accvgpr_read_b32 v18, a124
+	v_accvgpr_read_b32 v15, a127
 .Ltmp680:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v21, v21
+	v_cvt_f16_f32_e32 v18, v18
+	v_cvt_f16_f32_e32 v15, v15
 .Ltmp681:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp682:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	s_nop 0
-	buffer_load_dword v113, off, s[0:3], 0 offset:12
-	buffer_load_dword v112, off, s[0:3], 0 offset:8
+	buffer_load_dword v111, off, s[0:3], 0 offset:12
+	buffer_load_dword v110, off, s[0:3], 0 offset:8
 .Ltmp683:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
@@ -7957,39 +7956,41 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[112:113], v86, s[20:23], 0 offen
+	buffer_store_dwordx2 v[110:111], v83, s[20:23], 0 offen
 .Ltmp685:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v99, off, s[0:3], 0 offset:8
-	buffer_store_short v96, off, s[0:3], 0 offset:14
-	buffer_store_short v111, off, s[0:3], 0 offset:12
-	buffer_store_short v110, off, s[0:3], 0 offset:10
+	buffer_store_short v96, off, s[0:3], 0 offset:8
+	buffer_store_short v93, off, s[0:3], 0 offset:14
+	buffer_store_short v108, off, s[0:3], 0 offset:12
+	buffer_store_short v107, off, s[0:3], 0 offset:10
 .Ltmp686:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v111, off, s[0:3], 0 offset:12
+	buffer_load_dword v108, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
-	buffer_load_dword v110, off, s[0:3], 0 offset:8
+	buffer_load_dword v107, off, s[0:3], 0 offset:8
 .Ltmp687:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v112, a94
-	v_accvgpr_read_b32 v113, a97
-	v_accvgpr_read_b32 v86, a93
+	v_accvgpr_read_b32 v110, a94
+	v_accvgpr_read_b32 v83, a93
 .Ltmp688:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v86, v86
+	v_cvt_f16_f32_e32 v110, v110
+	v_cvt_f16_f32_e32 v83, v83
 .Ltmp689:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v99, a98
+	v_accvgpr_read_b32 v96, a98
+	v_accvgpr_read_b32 v111, a97
 .Ltmp690:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v99, v99
+	v_cvt_f16_f32_e32 v96, v96
+	v_cvt_f16_f32_e32 v111, v111
 .Ltmp691:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v96, a101
+	v_accvgpr_read_b32 v93, a101
 .Ltmp692:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v96, v96
+	v_cvt_f16_f32_e32 v93, v93
 .Ltmp693:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
@@ -7997,70 +7998,69 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[110:111], v76, s[20:23], 0 offen
+	buffer_store_dwordx2 v[107:108], v75, s[20:23], 0 offen
 .Ltmp695:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v76, v91
-	v_cvt_f16_f32_e32 v91, v108
+	v_cvt_f16_f32_e32 v75, v88
+	v_cvt_f16_f32_e32 v88, v105
 .Ltmp696:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v110, a102
+	v_accvgpr_read_b32 v107, a102
 .Ltmp697:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v110, v110
+	v_cvt_f16_f32_e32 v107, v107
 .Ltmp698:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v111, a105
+	v_accvgpr_read_b32 v108, a105
 .Ltmp699:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v111, v111
+	v_cvt_f16_f32_e32 v108, v108
 .Ltmp700:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v108, a110
+	v_accvgpr_read_b32 v105, a110
 .Ltmp701:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v108, v108
+	v_cvt_f16_f32_e32 v105, v105
 .Ltmp702:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp703:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
 	s_nop 0
-	buffer_store_short v76, off, s[0:3], 0 offset:8
+	buffer_store_short v75, off, s[0:3], 0 offset:8
 .Ltmp704:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v76, v109
+	v_cvt_f16_f32_e32 v75, v106
 .Ltmp705:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v109, a118
+	v_accvgpr_read_b32 v106, a50
 .Ltmp706:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v109, v109
+	v_cvt_f16_f32_e32 v106, v106
 .Ltmp707:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
 .Ltmp708:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
 	s_nop 0
-	buffer_store_short v90, off, s[0:3], 0 offset:14
-	buffer_store_short v76, off, s[0:3], 0 offset:12
-	buffer_store_short v91, off, s[0:3], 0 offset:10
+	buffer_store_short v87, off, s[0:3], 0 offset:14
+	buffer_store_short v75, off, s[0:3], 0 offset:12
+	buffer_store_short v88, off, s[0:3], 0 offset:10
 .Ltmp709:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v91, off, s[0:3], 0 offset:12
+	buffer_load_dword v88, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
-	buffer_load_dword v90, off, s[0:3], 0 offset:8
+	buffer_load_dword v87, off, s[0:3], 0 offset:8
 .Ltmp710:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v76, v77
-	v_cvt_f16_f32_e32 v77, v104
+	v_cvt_f16_f32_e32 v75, v79
 .Ltmp711:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v104, a121
+	v_accvgpr_read_b32 v79, a114
 .Ltmp712:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v104, v104
+	v_cvt_f16_f32_e32 v79, v79
 .Ltmp713:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
@@ -8068,344 +8068,329 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[90:91], v73, s[20:23], 0 offen
+	buffer_store_dwordx2 v[87:88], v73, s[20:23], 0 offen
 .Ltmp715:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v73, v83
-.Ltmp716:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v83, a114
-	v_accvgpr_read_b32 v90, a113
-.Ltmp717:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v83, v83
-	v_cvt_f16_f32_e32 v90, v90
-.Ltmp718:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v91, a117
-.Ltmp719:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v91, v91
-.Ltmp720:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp721:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	s_nop 0
-	buffer_store_short v73, off, s[0:3], 0 offset:8
+	buffer_store_short v75, off, s[0:3], 0 offset:8
+.Ltmp716:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v75, v102
+.Ltmp717:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v73, a113
+.Ltmp718:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v73, v73
+.Ltmp719:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v88, a118
+	v_accvgpr_read_b32 v87, a117
+.Ltmp720:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v88, v88
+	v_cvt_f16_f32_e32 v87, v87
+.Ltmp721:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v102, a121
 .Ltmp722:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v73, v107
+	v_cvt_f16_f32_e32 v102, v102
 .Ltmp723:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v107, a50
-.Ltmp724:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v107, v107
-.Ltmp725:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
-.Ltmp726:
+.Ltmp724:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
 	s_nop 0
 	buffer_store_short v76, off, s[0:3], 0 offset:14
-	buffer_store_short v73, off, s[0:3], 0 offset:12
-	buffer_store_short v77, off, s[0:3], 0 offset:10
-.Ltmp727:
+	buffer_store_short v75, off, s[0:3], 0 offset:12
+	buffer_store_short v101, off, s[0:3], 0 offset:10
+.Ltmp725:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v77, off, s[0:3], 0 offset:12
+	buffer_load_dword v76, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
-	buffer_load_dword v76, off, s[0:3], 0 offset:8
-.Ltmp728:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v73, v75
-.Ltmp729:
+	buffer_load_dword v75, off, s[0:3], 0 offset:8
+.Ltmp726:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v75, a125
-.Ltmp730:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v75, v75
-.Ltmp731:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp732:
-	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
-	s_waitcnt vmcnt(0)
-	s_nop 0
-	buffer_store_dwordx2 v[76:77], v71, s[20:23], 0 offen
-.Ltmp733:
-	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v73, off, s[0:3], 0 offset:8
-.Ltmp734:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v73, v101
-.Ltmp735:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v71, a122
-.Ltmp736:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v71, v71
-.Ltmp737:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v76, a126
-.Ltmp738:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v76, v76
-.Ltmp739:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v101, a34
-	v_accvgpr_read_b32 v77, a33
-.Ltmp740:
+	v_accvgpr_read_b32 v101, a33
+.Ltmp727:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
 	v_cvt_f16_f32_e32 v101, v101
-	v_cvt_f16_f32_e32 v77, v77
-.Ltmp741:
+.Ltmp728:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
-.Ltmp742:
-	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	s_nop 0
-	buffer_store_short v74, off, s[0:3], 0 offset:14
-	buffer_store_short v73, off, s[0:3], 0 offset:12
-	buffer_store_short v100, off, s[0:3], 0 offset:10
-.Ltmp743:
-	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v74, off, s[0:3], 0 offset:12
-	s_nop 0
-	s_nop 0
-	buffer_load_dword v73, off, s[0:3], 0 offset:8
-.Ltmp744:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v100, a42
-.Ltmp745:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v100, v100
-.Ltmp746:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp747:
+.Ltmp729:
 	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[73:74], v69, s[20:23], 0 offen
-.Ltmp748:
+	buffer_store_dwordx2 v[75:76], v71, s[20:23], 0 offen
+.Ltmp730:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v69, v72
-.Ltmp749:
+	v_cvt_f16_f32_e32 v71, v74
+.Ltmp731:
 	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v72, a38
-	v_accvgpr_read_b32 v73, a37
+	v_accvgpr_read_b32 v75, a122
+.Ltmp732:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v75, v75
+.Ltmp733:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v76, a126
+	v_accvgpr_read_b32 v74, a125
+.Ltmp734:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v76, v76
+	v_cvt_f16_f32_e32 v74, v74
+.Ltmp735:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp736:
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	s_nop 0
+	buffer_store_short v71, off, s[0:3], 0 offset:8
+.Ltmp737:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v71, v98
+.Ltmp738:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v98, a34
+.Ltmp739:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v98, v98
+.Ltmp740:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp741:
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	s_nop 0
+	buffer_store_short v72, off, s[0:3], 0 offset:14
+	buffer_store_short v71, off, s[0:3], 0 offset:12
+	buffer_store_short v97, off, s[0:3], 0 offset:10
+.Ltmp742:
+	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
+	buffer_load_dword v72, off, s[0:3], 0 offset:12
+	s_nop 0
+	s_nop 0
+	buffer_load_dword v71, off, s[0:3], 0 offset:8
+.Ltmp743:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v97, a42
+.Ltmp744:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v97, v97
+.Ltmp745:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp746:
+	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
+	s_waitcnt vmcnt(0)
+	s_nop 0
+	buffer_store_dwordx2 v[71:72], v68, s[20:23], 0 offen
+.Ltmp747:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v68, v70
+.Ltmp748:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v70, a38
+	v_accvgpr_read_b32 v71, a37
+.Ltmp749:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v70, v70
+	v_cvt_f16_f32_e32 v71, v71
 .Ltmp750:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v72, a41
+.Ltmp751:
 	.loc	4 271 31                ; ./float_type.hpp:271:31
 	v_cvt_f16_f32_e32 v72, v72
-	v_cvt_f16_f32_e32 v73, v73
-.Ltmp751:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v74, a41
 .Ltmp752:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v74, v74
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
 .Ltmp753:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp754:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
 	s_nop 0
-	buffer_store_short v69, off, s[0:3], 0 offset:8
-.Ltmp755:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v69, v95
-.Ltmp756:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v95, a45
-.Ltmp757:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v95, v95
-.Ltmp758:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp759:
-	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	s_nop 0
-	buffer_store_short v70, off, s[0:3], 0 offset:14
-	buffer_store_short v69, off, s[0:3], 0 offset:12
-	buffer_store_short v94, off, s[0:3], 0 offset:10
-.Ltmp760:
-	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v70, off, s[0:3], 0 offset:12
-	s_nop 0
-	s_nop 0
-	buffer_load_dword v69, off, s[0:3], 0 offset:8
-.Ltmp761:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v94, a49
-.Ltmp762:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v94, v94
-.Ltmp763:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp764:
-	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
-	s_waitcnt vmcnt(0)
-	s_nop 0
-	buffer_store_dwordx2 v[69:70], v62, s[20:23], 0 offen
-.Ltmp765:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v70, v89
-	v_cvt_f16_f32_e32 v69, v88
-	v_cvt_f16_f32_e32 v88, v92
-	v_cvt_f16_f32_e32 v89, v93
-	v_cvt_f16_f32_e32 v92, v97
-	v_cvt_f16_f32_e32 v93, v98
-	v_cvt_f16_f32_e32 v97, v102
-	v_cvt_f16_f32_e32 v98, v103
-	v_cvt_f16_f32_e32 v102, v105
-	v_cvt_f16_f32_e32 v103, v106
-	v_cvt_f16_f32_e32 v105, v112
-	v_cvt_f16_f32_e32 v106, v113
-	v_cvt_f16_f32_e32 v112, v124
-	v_cvt_f16_f32_e32 v113, v125
-	v_cvt_f16_f32_e32 v124, v12
-	v_cvt_f16_f32_e32 v125, v11
-.Ltmp766:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v62, a46
-.Ltmp767:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v62, v62
-.Ltmp768:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp769:
-	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	s_nop 0
-	buffer_store_short v66, off, s[0:3], 0 offset:8
-	buffer_store_short v64, off, s[0:3], 0 offset:14
-	buffer_store_short v70, off, s[0:3], 0 offset:12
-	buffer_store_short v69, off, s[0:3], 0 offset:10
-.Ltmp770:
-	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v70, off, s[0:3], 0 offset:12
-	s_nop 0
-	s_nop 0
-	buffer_load_dword v69, off, s[0:3], 0 offset:8
-.Ltmp771:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v64, a54
-	v_accvgpr_read_b32 v66, a53
-.Ltmp772:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v64, v64
-	v_cvt_f16_f32_e32 v66, v66
-.Ltmp773:
-	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-	s_nop 0
-.Ltmp774:
-	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
-	s_waitcnt vmcnt(0)
-	s_nop 0
-	buffer_store_dwordx2 v[69:70], v50, s[20:23], 0 offen
-.Ltmp775:
-	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v58, off, s[0:3], 0 offset:8
-	buffer_store_short v45, off, s[0:3], 0 offset:14
-	buffer_store_short v85, off, s[0:3], 0 offset:12
-	buffer_store_short v84, off, s[0:3], 0 offset:10
-.Ltmp776:
-	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v12, off, s[0:3], 0 offset:12
-	buffer_load_dword v11, off, s[0:3], 0 offset:8
-.Ltmp777:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v69, a58
-	v_accvgpr_read_b32 v50, a57
-.Ltmp778:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v69, v69
-	v_cvt_f16_f32_e32 v50, v50
-.Ltmp779:
-	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
-	v_accvgpr_read_b32 v58, a62
-	v_accvgpr_read_b32 v70, a61
-.Ltmp780:
-	.loc	4 271 31                ; ./float_type.hpp:271:31
-	v_cvt_f16_f32_e32 v58, v58
-	v_cvt_f16_f32_e32 v70, v70
-.Ltmp781:
-	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
-	s_nop 0
-	s_waitcnt vmcnt(0)
-	s_nop 0
-	buffer_store_dwordx2 v[11:12], v10, s[20:23], 0 offen
-.Ltmp782:
-	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
 	buffer_store_short v68, off, s[0:3], 0 offset:8
-	buffer_store_short v67, off, s[0:3], 0 offset:14
+.Ltmp754:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v68, v92
+.Ltmp755:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v92, a45
+.Ltmp756:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v92, v92
+.Ltmp757:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp758:
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	s_nop 0
+	buffer_store_short v69, off, s[0:3], 0 offset:14
+	buffer_store_short v68, off, s[0:3], 0 offset:12
+	buffer_store_short v91, off, s[0:3], 0 offset:10
+.Ltmp759:
+	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
+	buffer_load_dword v69, off, s[0:3], 0 offset:12
+	s_nop 0
+	s_nop 0
+	buffer_load_dword v68, off, s[0:3], 0 offset:8
+.Ltmp760:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v91, a49
+.Ltmp761:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v91, v91
+.Ltmp762:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp763:
+	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
+	s_waitcnt vmcnt(0)
+	s_nop 0
+	buffer_store_dwordx2 v[68:69], v61, s[20:23], 0 offen
+.Ltmp764:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v69, v86
+	v_cvt_f16_f32_e32 v68, v85
+	v_cvt_f16_f32_e32 v85, v89
+	v_cvt_f16_f32_e32 v86, v90
+	v_cvt_f16_f32_e32 v89, v94
+	v_cvt_f16_f32_e32 v90, v95
+	v_cvt_f16_f32_e32 v94, v99
+	v_cvt_f16_f32_e32 v95, v100
+	v_cvt_f16_f32_e32 v99, v103
+	v_cvt_f16_f32_e32 v100, v104
+	v_cvt_f16_f32_e32 v103, v117
+	v_cvt_f16_f32_e32 v104, v120
+	v_cvt_f16_f32_e32 v117, v124
+	v_cvt_f16_f32_e32 v120, v125
+	v_cvt_f16_f32_e32 v124, v11
+	v_cvt_f16_f32_e32 v125, v10
+.Ltmp765:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v61, a46
+.Ltmp766:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v61, v61
+.Ltmp767:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp768:
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	s_nop 0
+	buffer_store_short v65, off, s[0:3], 0 offset:8
+	buffer_store_short v63, off, s[0:3], 0 offset:14
+	buffer_store_short v69, off, s[0:3], 0 offset:12
+	buffer_store_short v68, off, s[0:3], 0 offset:10
+.Ltmp769:
+	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
+	buffer_load_dword v69, off, s[0:3], 0 offset:12
+	s_nop 0
+	s_nop 0
+	buffer_load_dword v68, off, s[0:3], 0 offset:8
+.Ltmp770:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v63, a54
+	v_accvgpr_read_b32 v65, a53
+.Ltmp771:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v63, v63
+	v_cvt_f16_f32_e32 v65, v65
+.Ltmp772:
+	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
+	s_nop 0
+.Ltmp773:
+	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
+	s_waitcnt vmcnt(0)
+	s_nop 0
+	buffer_store_dwordx2 v[68:69], v48, s[20:23], 0 offen
+.Ltmp774:
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v56, off, s[0:3], 0 offset:8
+	buffer_store_short v44, off, s[0:3], 0 offset:14
 	buffer_store_short v81, off, s[0:3], 0 offset:12
 	buffer_store_short v80, off, s[0:3], 0 offset:10
-.Ltmp783:
+.Ltmp775:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v11, off, s[0:3], 0 offset:12
-	s_nop 0
-	s_nop 0
 	buffer_load_dword v10, off, s[0:3], 0 offset:8
-	.loc	5 624 5 is_stmt 0       ; ./amd_buffer_addressing.hpp:624:5
+.Ltmp776:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v68, a58
+	v_accvgpr_read_b32 v48, a57
+.Ltmp777:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v68, v68
+	v_cvt_f16_f32_e32 v48, v48
+.Ltmp778:
+	.loc	16 133 64               ; ./threadwise_generic_tensor_slice_copy.hpp:133:64
+	v_accvgpr_read_b32 v56, a62
+	v_accvgpr_read_b32 v69, a61
+.Ltmp779:
+	.loc	4 271 31                ; ./float_type.hpp:271:31
+	v_cvt_f16_f32_e32 v56, v56
+	v_cvt_f16_f32_e32 v69, v69
+.Ltmp780:
+	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
 	buffer_store_dwordx2 v[10:11], v9, s[20:23], 0 offen
-.Ltmp784:
-	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v65, off, s[0:3], 0 offset:8
-	buffer_store_short v63, off, s[0:3], 0 offset:14
-	buffer_store_short v79, off, s[0:3], 0 offset:12
-	buffer_store_short v78, off, s[0:3], 0 offset:10
-.Ltmp785:
+.Ltmp781:
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v67, off, s[0:3], 0 offset:8
+	buffer_store_short v66, off, s[0:3], 0 offset:14
+	buffer_store_short v78, off, s[0:3], 0 offset:12
+	buffer_store_short v77, off, s[0:3], 0 offset:10
+.Ltmp782:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v10, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
 	buffer_load_dword v9, off, s[0:3], 0 offset:8
-.Ltmp786:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v11, v5, v115, v117
-	v_add3_u32 v5, v5, v118, v120
-.Ltmp787:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v5, v5, v122, 1
-	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
+	.loc	5 624 5 is_stmt 0       ; ./amd_buffer_addressing.hpp:624:5
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
 	buffer_store_dwordx2 v[9:10], v8, s[20:23], 0 offen
-.Ltmp788:
-	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v61, off, s[0:3], 0 offset:8
-	buffer_store_short v59, off, s[0:3], 0 offset:14
-	buffer_store_short v87, off, s[0:3], 0 offset:12
+.Ltmp783:
+	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v64, off, s[0:3], 0 offset:8
+	buffer_store_short v62, off, s[0:3], 0 offset:14
+	buffer_store_short v84, off, s[0:3], 0 offset:12
 	buffer_store_short v82, off, s[0:3], 0 offset:10
-.Ltmp789:
+.Ltmp784:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
 	buffer_load_dword v8, off, s[0:3], 0 offset:8
-	v_add_lshl_u32 v10, v121, v116, 10
+.Ltmp785:
+	.loc	12 211 18               ; ./multi_index_transform.hpp:211:18
+	v_add_u32_e32 v10, v121, v109
+.Ltmp786:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v11, v2, v10, v118
+.Ltmp787:
 	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v11, v11, v10, 1
+	v_add_lshl_u32 v11, v11, v115, 1
+.Ltmp788:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v2, v2, v122, v116
+.Ltmp789:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v2, v2, v119, 1
 	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[8:9], v29, s[20:23], 0 offen
+	buffer_store_dwordx2 v[8:9], v34, s[20:23], 0 offen
 .Ltmp790:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v57, off, s[0:3], 0 offset:8
-	buffer_store_short v53, off, s[0:3], 0 offset:14
-	buffer_store_short v89, off, s[0:3], 0 offset:12
-	buffer_store_short v88, off, s[0:3], 0 offset:10
+	buffer_store_short v60, off, s[0:3], 0 offset:8
+	buffer_store_short v57, off, s[0:3], 0 offset:14
+	buffer_store_short v86, off, s[0:3], 0 offset:12
+	buffer_store_short v85, off, s[0:3], 0 offset:10
 .Ltmp791:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
@@ -8416,13 +8401,13 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[8:9], v40, s[20:23], 0 offen
+	buffer_store_dwordx2 v[8:9], v43, s[20:23], 0 offen
 .Ltmp792:
 	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v52, off, s[0:3], 0 offset:8
-	buffer_store_short v47, off, s[0:3], 0 offset:14
-	buffer_store_short v93, off, s[0:3], 0 offset:12
-	buffer_store_short v92, off, s[0:3], 0 offset:10
+	buffer_store_short v55, off, s[0:3], 0 offset:8
+	buffer_store_short v51, off, s[0:3], 0 offset:14
+	buffer_store_short v90, off, s[0:3], 0 offset:12
+	buffer_store_short v89, off, s[0:3], 0 offset:10
 .Ltmp793:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
@@ -8433,13 +8418,13 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[8:9], v49, s[20:23], 0 offen
+	buffer_store_dwordx2 v[8:9], v53, s[20:23], 0 offen
 .Ltmp794:
 	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v46, off, s[0:3], 0 offset:8
-	buffer_store_short v41, off, s[0:3], 0 offset:14
-	buffer_store_short v98, off, s[0:3], 0 offset:12
-	buffer_store_short v97, off, s[0:3], 0 offset:10
+	buffer_store_short v50, off, s[0:3], 0 offset:8
+	buffer_store_short v46, off, s[0:3], 0 offset:14
+	buffer_store_short v95, off, s[0:3], 0 offset:12
+	buffer_store_short v94, off, s[0:3], 0 offset:10
 .Ltmp795:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
@@ -8450,13 +8435,13 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[8:9], v56, s[20:23], 0 offen
+	buffer_store_dwordx2 v[8:9], v59, s[20:23], 0 offen
 .Ltmp796:
 	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v38, off, s[0:3], 0 offset:8
-	buffer_store_short v34, off, s[0:3], 0 offset:14
-	buffer_store_short v103, off, s[0:3], 0 offset:12
-	buffer_store_short v102, off, s[0:3], 0 offset:10
+	buffer_store_short v45, off, s[0:3], 0 offset:8
+	buffer_store_short v39, off, s[0:3], 0 offset:14
+	buffer_store_short v100, off, s[0:3], 0 offset:12
+	buffer_store_short v99, off, s[0:3], 0 offset:10
 .Ltmp797:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
@@ -8467,13 +8452,13 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[8:9], v119, s[20:23], 0 offen
+	buffer_store_dwordx2 v[8:9], v112, s[20:23], 0 offen
 .Ltmp798:
 	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v32, off, s[0:3], 0 offset:8
-	buffer_store_short v27, off, s[0:3], 0 offset:14
-	buffer_store_short v105, off, s[0:3], 0 offset:12
-	buffer_store_short v86, off, s[0:3], 0 offset:10
+	buffer_store_short v37, off, s[0:3], 0 offset:8
+	buffer_store_short v32, off, s[0:3], 0 offset:14
+	buffer_store_short v104, off, s[0:3], 0 offset:12
+	buffer_store_short v103, off, s[0:3], 0 offset:10
 .Ltmp799:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
@@ -8484,13 +8469,13 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[8:9], v114, s[20:23], 0 offen
+	buffer_store_dwordx2 v[8:9], v113, s[20:23], 0 offen
 .Ltmp800:
 	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v60, off, s[0:3], 0 offset:8
-	buffer_store_short v55, off, s[0:3], 0 offset:14
-	buffer_store_short v99, off, s[0:3], 0 offset:12
-	buffer_store_short v106, off, s[0:3], 0 offset:10
+	buffer_store_short v30, off, s[0:3], 0 offset:8
+	buffer_store_short v26, off, s[0:3], 0 offset:14
+	buffer_store_short v110, off, s[0:3], 0 offset:12
+	buffer_store_short v83, off, s[0:3], 0 offset:10
 .Ltmp801:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
@@ -8501,31 +8486,42 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[8:9], v11, s[20:23], 0 offen
+	buffer_store_dwordx2 v[8:9], v114, s[20:23], 0 offen
 .Ltmp802:
 	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v54, off, s[0:3], 0 offset:8
-	buffer_store_short v51, off, s[0:3], 0 offset:14
-	buffer_store_short v110, off, s[0:3], 0 offset:12
-	buffer_store_short v96, off, s[0:3], 0 offset:10
+	buffer_store_short v58, off, s[0:3], 0 offset:8
+	buffer_store_short v54, off, s[0:3], 0 offset:14
+	buffer_store_short v96, off, s[0:3], 0 offset:12
+	buffer_store_short v111, off, s[0:3], 0 offset:10
 .Ltmp803:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
 	buffer_load_dword v8, off, s[0:3], 0 offset:8
+	.loc	5 624 5 is_stmt 0       ; ./amd_buffer_addressing.hpp:624:5
+	s_nop 0
+	s_waitcnt vmcnt(0)
+	s_nop 0
+	buffer_store_dwordx2 v[8:9], v11, s[20:23], 0 offen
 .Ltmp804:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v11, v4, v115, v117
+	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v52, off, s[0:3], 0 offset:8
+	buffer_store_short v49, off, s[0:3], 0 offset:14
+	buffer_store_short v107, off, s[0:3], 0 offset:12
+	buffer_store_short v93, off, s[0:3], 0 offset:10
 .Ltmp805:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v11, v11, v10, 1
+	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
+	buffer_load_dword v9, off, s[0:3], 0 offset:12
+	s_nop 0
+	s_nop 0
+	buffer_load_dword v8, off, s[0:3], 0 offset:8
 .Ltmp806:
 	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v4, v4, v118, v120
+	v_add3_u32 v11, v4, v10, v118
 .Ltmp807:
 	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v4, v4, v122, 1
+	v_add_lshl_u32 v11, v11, v115, 1
 	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_nop 0
 	s_waitcnt vmcnt(0)
@@ -8533,10 +8529,10 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	buffer_store_dwordx2 v[8:9], v11, s[20:23], 0 offen
 .Ltmp808:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v48, off, s[0:3], 0 offset:8
-	buffer_store_short v43, off, s[0:3], 0 offset:14
-	buffer_store_short v112, off, s[0:3], 0 offset:12
-	buffer_store_short v111, off, s[0:3], 0 offset:10
+	buffer_store_short v47, off, s[0:3], 0 offset:8
+	buffer_store_short v41, off, s[0:3], 0 offset:14
+	buffer_store_short v117, off, s[0:3], 0 offset:12
+	buffer_store_short v108, off, s[0:3], 0 offset:10
 .Ltmp809:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
@@ -8545,304 +8541,309 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	buffer_load_dword v8, off, s[0:3], 0 offset:8
 .Ltmp810:
 	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v11, v3, v115, v117
+	v_add3_u32 v11, v3, v10, v118
 .Ltmp811:
 	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v11, v11, v10, 1
-.Ltmp812:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v3, v3, v118, v120
-.Ltmp813:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v3, v3, v122, 1
+	v_add_lshl_u32 v11, v11, v115, 1
 	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
 	buffer_store_dwordx2 v[8:9], v11, s[20:23], 0 offen
-.Ltmp814:
+.Ltmp812:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v42, off, s[0:3], 0 offset:8
-	buffer_store_short v36, off, s[0:3], 0 offset:14
-	buffer_store_short v108, off, s[0:3], 0 offset:12
-	buffer_store_short v113, off, s[0:3], 0 offset:10
-.Ltmp815:
+	buffer_store_short v40, off, s[0:3], 0 offset:8
+	buffer_store_short v35, off, s[0:3], 0 offset:14
+	buffer_store_short v105, off, s[0:3], 0 offset:12
+	buffer_store_short v120, off, s[0:3], 0 offset:10
+.Ltmp813:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
 	buffer_load_dword v8, off, s[0:3], 0 offset:8
+.Ltmp814:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v11, v1, v10, v118
+.Ltmp815:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v11, v11, v115, 1
 .Ltmp816:
 	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v11, v2, v115, v117
+	v_add3_u32 v1, v1, v122, v116
 .Ltmp817:
 	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v11, v11, v10, 1
-.Ltmp818:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v2, v2, v118, v120
-.Ltmp819:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v2, v2, v122, 1
+	v_add_lshl_u32 v1, v1, v119, 1
 	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
 	buffer_store_dwordx2 v[8:9], v11, s[20:23], 0 offen
-.Ltmp820:
+.Ltmp818:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v35, off, s[0:3], 0 offset:8
-	buffer_store_short v30, off, s[0:3], 0 offset:14
-	buffer_store_short v83, off, s[0:3], 0 offset:12
-	buffer_store_short v90, off, s[0:3], 0 offset:10
+	buffer_store_short v33, off, s[0:3], 0 offset:8
+	buffer_store_short v28, off, s[0:3], 0 offset:14
+	buffer_store_short v79, off, s[0:3], 0 offset:12
+	buffer_store_short v73, off, s[0:3], 0 offset:10
+.Ltmp819:
+	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
+	buffer_load_dword v9, off, s[0:3], 0 offset:12
+	s_nop 0
+	s_nop 0
+	buffer_load_dword v8, off, s[0:3], 0 offset:8
+	.loc	5 624 5 is_stmt 0       ; ./amd_buffer_addressing.hpp:624:5
+	s_nop 0
+	s_waitcnt vmcnt(0)
+	s_nop 0
+	buffer_store_dwordx2 v[8:9], v2, s[20:23], 0 offen
+.Ltmp820:
+	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v27, off, s[0:3], 0 offset:8
+	buffer_store_short v23, off, s[0:3], 0 offset:14
+	buffer_store_short v88, off, s[0:3], 0 offset:12
+	buffer_store_short v87, off, s[0:3], 0 offset:10
 .Ltmp821:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
 	buffer_load_dword v8, off, s[0:3], 0 offset:8
-	.loc	5 624 5 is_stmt 0       ; ./amd_buffer_addressing.hpp:624:5
+.Ltmp822:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v2, v4, v122, v116
+.Ltmp823:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v2, v2, v119, 1
+	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[8:9], v5, s[20:23], 0 offen
-.Ltmp822:
-	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v28, off, s[0:3], 0 offset:8
-	buffer_store_short v24, off, s[0:3], 0 offset:14
-	buffer_store_short v109, off, s[0:3], 0 offset:12
-	buffer_store_short v91, off, s[0:3], 0 offset:10
-.Ltmp823:
+	buffer_store_dwordx2 v[8:9], v2, s[20:23], 0 offen
+.Ltmp824:
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v22, off, s[0:3], 0 offset:8
+	buffer_store_short v19, off, s[0:3], 0 offset:14
+	buffer_store_short v75, off, s[0:3], 0 offset:12
+	buffer_store_short v102, off, s[0:3], 0 offset:10
+.Ltmp825:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v9, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
 	buffer_load_dword v8, off, s[0:3], 0 offset:8
-	.loc	5 624 5 is_stmt 0       ; ./amd_buffer_addressing.hpp:624:5
-	s_nop 0
-	s_waitcnt vmcnt(0)
-	s_nop 0
-	buffer_store_dwordx2 v[8:9], v4, s[20:23], 0 offen
-.Ltmp824:
-	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v23, off, s[0:3], 0 offset:8
-	buffer_store_short v20, off, s[0:3], 0 offset:14
-	buffer_store_short v71, off, s[0:3], 0 offset:12
-	buffer_store_short v104, off, s[0:3], 0 offset:10
-.Ltmp825:
-	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v5, off, s[0:3], 0 offset:12
-	s_nop 0
-	s_nop 0
-	buffer_load_dword v4, off, s[0:3], 0 offset:8
-	.loc	5 624 5 is_stmt 0       ; ./amd_buffer_addressing.hpp:624:5
-	s_nop 0
-	s_waitcnt vmcnt(0)
-	s_nop 0
-	buffer_store_dwordx2 v[4:5], v3, s[20:23], 0 offen
 .Ltmp826:
-	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v19, off, s[0:3], 0 offset:8
-	buffer_store_short v16, off, s[0:3], 0 offset:14
-	buffer_store_short v76, off, s[0:3], 0 offset:12
-	buffer_store_short v75, off, s[0:3], 0 offset:10
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v2, v3, v122, v116
 .Ltmp827:
-	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v4, off, s[0:3], 0 offset:12
-	s_nop 0
-	s_nop 0
-	buffer_load_dword v3, off, s[0:3], 0 offset:8
-	.loc	5 624 5 is_stmt 0       ; ./amd_buffer_addressing.hpp:624:5
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v2, v2, v119, 1
+	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[3:4], v2, s[20:23], 0 offen
+	buffer_store_dwordx2 v[8:9], v2, s[20:23], 0 offen
 .Ltmp828:
-	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v44, off, s[0:3], 0 offset:8
-	buffer_store_short v39, off, s[0:3], 0 offset:14
-	buffer_store_short v101, off, s[0:3], 0 offset:12
-	buffer_store_short v77, off, s[0:3], 0 offset:10
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v18, off, s[0:3], 0 offset:8
+	buffer_store_short v15, off, s[0:3], 0 offset:14
+	buffer_store_short v76, off, s[0:3], 0 offset:12
+	buffer_store_short v74, off, s[0:3], 0 offset:10
 .Ltmp829:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v3, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
 	buffer_load_dword v2, off, s[0:3], 0 offset:8
-.Ltmp830:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v4, v0, v115, v117
-.Ltmp831:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v4, v4, v10, 1
-.Ltmp832:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v0, v0, v118, v120
-.Ltmp833:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v0, v0, v122, 1
-	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
-	s_nop 0
-	s_waitcnt vmcnt(0)
-	s_nop 0
-	buffer_store_dwordx2 v[2:3], v4, s[20:23], 0 offen
-.Ltmp834:
-	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v37, off, s[0:3], 0 offset:8
-	buffer_store_short v33, off, s[0:3], 0 offset:14
-	buffer_store_short v72, off, s[0:3], 0 offset:12
-	buffer_store_short v73, off, s[0:3], 0 offset:10
-.Ltmp835:
-	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v3, off, s[0:3], 0 offset:12
-	s_nop 0
-	s_nop 0
-	buffer_load_dword v2, off, s[0:3], 0 offset:8
-.Ltmp836:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v4, v1, v115, v117
-.Ltmp837:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v4, v4, v10, 1
-	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
-	s_nop 0
-	s_waitcnt vmcnt(0)
-	s_nop 0
-	buffer_store_dwordx2 v[2:3], v4, s[20:23], 0 offen
-.Ltmp838:
-	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v31, off, s[0:3], 0 offset:8
-	buffer_store_short v26, off, s[0:3], 0 offset:14
-	buffer_store_short v100, off, s[0:3], 0 offset:12
-	buffer_store_short v74, off, s[0:3], 0 offset:10
-.Ltmp839:
-	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v3, off, s[0:3], 0 offset:12
-	s_nop 0
-	s_nop 0
-	buffer_load_dword v2, off, s[0:3], 0 offset:8
-.Ltmp840:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v4, v6, v115, v117
-.Ltmp841:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v4, v4, v10, 1
-	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
-	s_nop 0
-	s_waitcnt vmcnt(0)
-	s_nop 0
-	buffer_store_dwordx2 v[2:3], v4, s[20:23], 0 offen
-.Ltmp842:
-	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v25, off, s[0:3], 0 offset:8
-	buffer_store_short v22, off, s[0:3], 0 offset:14
-	buffer_store_short v62, off, s[0:3], 0 offset:12
-	buffer_store_short v95, off, s[0:3], 0 offset:10
-.Ltmp843:
-	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v3, off, s[0:3], 0 offset:12
-	s_nop 0
-	s_nop 0
-	buffer_load_dword v2, off, s[0:3], 0 offset:8
-.Ltmp844:
-	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v4, v7, v115, v117
-.Ltmp845:
-	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v4, v4, v10, 1
-	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
-	s_nop 0
-	s_waitcnt vmcnt(0)
-	s_nop 0
-	buffer_store_dwordx2 v[2:3], v4, s[20:23], 0 offen
-.Ltmp846:
-	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v21, off, s[0:3], 0 offset:8
-	buffer_store_short v18, off, s[0:3], 0 offset:14
-	buffer_store_short v107, off, s[0:3], 0 offset:12
-	buffer_store_short v94, off, s[0:3], 0 offset:10
-.Ltmp847:
-	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v3, off, s[0:3], 0 offset:12
-	s_nop 0
-	s_nop 0
-	buffer_load_dword v2, off, s[0:3], 0 offset:8
 	.loc	5 624 5 is_stmt 0       ; ./amd_buffer_addressing.hpp:624:5
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[2:3], v0, s[20:23], 0 offen
-.Ltmp848:
+	buffer_store_dwordx2 v[2:3], v1, s[20:23], 0 offen
+.Ltmp830:
 	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v17, off, s[0:3], 0 offset:8
-	buffer_store_short v15, off, s[0:3], 0 offset:14
-	buffer_store_short v64, off, s[0:3], 0 offset:12
-	buffer_store_short v66, off, s[0:3], 0 offset:10
-.Ltmp849:
+	buffer_store_short v42, off, s[0:3], 0 offset:8
+	buffer_store_short v38, off, s[0:3], 0 offset:14
+	buffer_store_short v98, off, s[0:3], 0 offset:12
+	buffer_store_short v101, off, s[0:3], 0 offset:10
+.Ltmp831:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
-	buffer_load_dword v3, off, s[0:3], 0 offset:12
+	buffer_load_dword v2, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
-	buffer_load_dword v2, off, s[0:3], 0 offset:8
-.Ltmp850:
+	buffer_load_dword v1, off, s[0:3], 0 offset:8
+.Ltmp832:
 	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v0, v1, v118, v120
-.Ltmp851:
+	v_add3_u32 v3, v0, v10, v118
+.Ltmp833:
 	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v0, v0, v122, 1
+	v_add_lshl_u32 v3, v3, v115, 1
+.Ltmp834:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v0, v0, v122, v116
+.Ltmp835:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v0, v0, v119, 1
 	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
-	buffer_store_dwordx2 v[2:3], v0, s[20:23], 0 offen
-.Ltmp852:
+	buffer_store_dwordx2 v[1:2], v3, s[20:23], 0 offen
+.Ltmp836:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v14, off, s[0:3], 0 offset:8
-	buffer_store_short v13, off, s[0:3], 0 offset:14
-	buffer_store_short v69, off, s[0:3], 0 offset:12
-	buffer_store_short v50, off, s[0:3], 0 offset:10
-.Ltmp853:
+	buffer_store_short v36, off, s[0:3], 0 offset:8
+	buffer_store_short v31, off, s[0:3], 0 offset:14
+	buffer_store_short v70, off, s[0:3], 0 offset:12
+	buffer_store_short v71, off, s[0:3], 0 offset:10
+.Ltmp837:
+	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
+	buffer_load_dword v2, off, s[0:3], 0 offset:12
+	s_nop 0
+	s_nop 0
+	buffer_load_dword v1, off, s[0:3], 0 offset:8
+.Ltmp838:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v3, v5, v10, v118
+.Ltmp839:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v3, v3, v115, 1
+	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
+	s_nop 0
+	s_waitcnt vmcnt(0)
+	s_nop 0
+	buffer_store_dwordx2 v[1:2], v3, s[20:23], 0 offen
+.Ltmp840:
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v29, off, s[0:3], 0 offset:8
+	buffer_store_short v25, off, s[0:3], 0 offset:14
+	buffer_store_short v97, off, s[0:3], 0 offset:12
+	buffer_store_short v72, off, s[0:3], 0 offset:10
+.Ltmp841:
+	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
+	buffer_load_dword v2, off, s[0:3], 0 offset:12
+	s_nop 0
+	s_nop 0
+	buffer_load_dword v1, off, s[0:3], 0 offset:8
+.Ltmp842:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v3, v6, v10, v118
+.Ltmp843:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v3, v3, v115, 1
+	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
+	s_nop 0
+	s_waitcnt vmcnt(0)
+	s_nop 0
+	buffer_store_dwordx2 v[1:2], v3, s[20:23], 0 offen
+.Ltmp844:
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v24, off, s[0:3], 0 offset:8
+	buffer_store_short v21, off, s[0:3], 0 offset:14
+	buffer_store_short v61, off, s[0:3], 0 offset:12
+	buffer_store_short v92, off, s[0:3], 0 offset:10
+.Ltmp845:
+	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
+	buffer_load_dword v2, off, s[0:3], 0 offset:12
+	s_nop 0
+	s_nop 0
+	buffer_load_dword v1, off, s[0:3], 0 offset:8
+.Ltmp846:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v3, v7, v10, v118
+.Ltmp847:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v3, v3, v115, 1
+	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
+	s_nop 0
+	s_waitcnt vmcnt(0)
+	s_nop 0
+	buffer_store_dwordx2 v[1:2], v3, s[20:23], 0 offen
+.Ltmp848:
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v20, off, s[0:3], 0 offset:8
+	buffer_store_short v17, off, s[0:3], 0 offset:14
+	buffer_store_short v106, off, s[0:3], 0 offset:12
+	buffer_store_short v91, off, s[0:3], 0 offset:10
+.Ltmp849:
+	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
+	buffer_load_dword v2, off, s[0:3], 0 offset:12
+	s_nop 0
+	s_nop 0
+	buffer_load_dword v1, off, s[0:3], 0 offset:8
+	.loc	5 624 5 is_stmt 0       ; ./amd_buffer_addressing.hpp:624:5
+	s_nop 0
+	s_waitcnt vmcnt(0)
+	s_nop 0
+	buffer_store_dwordx2 v[1:2], v0, s[20:23], 0 offen
+.Ltmp850:
+	.loc	16 133 38 is_stmt 1     ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v16, off, s[0:3], 0 offset:8
+	buffer_store_short v14, off, s[0:3], 0 offset:14
+	buffer_store_short v63, off, s[0:3], 0 offset:12
+	buffer_store_short v65, off, s[0:3], 0 offset:10
+.Ltmp851:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v1, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
 	buffer_load_dword v0, off, s[0:3], 0 offset:8
-.Ltmp854:
+.Ltmp852:
 	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
-	v_add3_u32 v2, v6, v118, v120
-.Ltmp855:
+	v_add3_u32 v2, v5, v122, v116
+.Ltmp853:
 	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
-	v_add_lshl_u32 v2, v2, v122, 1
+	v_add_lshl_u32 v2, v2, v119, 1
 	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_nop 0
 	s_waitcnt vmcnt(0)
 	s_nop 0
 	buffer_store_dwordx2 v[0:1], v2, s[20:23], 0 offen
-.Ltmp856:
+.Ltmp854:
 	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
-	buffer_store_short v124, off, s[0:3], 0 offset:8
-	buffer_store_short v125, off, s[0:3], 0 offset:14
-	buffer_store_short v58, off, s[0:3], 0 offset:12
-	buffer_store_short v70, off, s[0:3], 0 offset:10
-.Ltmp857:
+	buffer_store_short v13, off, s[0:3], 0 offset:8
+	buffer_store_short v12, off, s[0:3], 0 offset:14
+	buffer_store_short v68, off, s[0:3], 0 offset:12
+	buffer_store_short v48, off, s[0:3], 0 offset:10
+.Ltmp855:
 	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
 	buffer_load_dword v1, off, s[0:3], 0 offset:12
 	s_nop 0
 	s_nop 0
 	buffer_load_dword v0, off, s[0:3], 0 offset:8
+.Ltmp856:
+	.loc	15 85 58                ; ./tensor_descriptor.hpp:85:58
+	v_add3_u32 v2, v6, v122, v116
+.Ltmp857:
+	.loc	5 627 61                ; ./amd_buffer_addressing.hpp:627:61
+	v_add_lshl_u32 v2, v2, v119, 1
+	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
+	s_nop 0
+	s_waitcnt vmcnt(0)
+	s_nop 0
+	buffer_store_dwordx2 v[0:1], v2, s[20:23], 0 offen
 .Ltmp858:
+	.loc	16 133 38               ; ./threadwise_generic_tensor_slice_copy.hpp:133:38
+	buffer_store_short v124, off, s[0:3], 0 offset:8
+	buffer_store_short v125, off, s[0:3], 0 offset:14
+	buffer_store_short v56, off, s[0:3], 0 offset:12
+	buffer_store_short v69, off, s[0:3], 0 offset:10
+.Ltmp859:
+	.loc	5 624 38                ; ./amd_buffer_addressing.hpp:624:38
+	buffer_load_dword v1, off, s[0:3], 0 offset:12
+	s_nop 0
+	s_nop 0
+	buffer_load_dword v0, off, s[0:3], 0 offset:8
+.Ltmp860:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
 	s_nop 0
-.Ltmp859:
+.Ltmp861:
 	.loc	5 624 5                 ; ./amd_buffer_addressing.hpp:624:5
 	s_waitcnt vmcnt(0)
 	s_nop 0
 	buffer_store_dwordx2 v[0:1], v123, s[20:23], 0 offen
-.Ltmp860:
+.Ltmp862:
 	.loc	11 216 1                ; gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp:216:1
-*/
 	s_endpgm
-.Ltmp861:
+.Ltmp863:
 	.section	.rodata,#alloc
 	.p2align	6
 	.amdhsa_kernel gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw
@@ -8881,18 +8882,17 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 	.text
 .Lfunc_end77:
 	.size	gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw, .Lfunc_end77-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw
-	.file	20 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_fp16_bfp16_gnchw_gkcyx_gnkhw.hpp"
-	.file	21 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./tensor_descriptor_helper.hpp"
-	.file	22 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./functional2.hpp"
-	.file	23 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./blockwise_generic_tensor_slice_copy.hpp"
-	.file	24 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./array.hpp"
-	.file	25 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./functional3.hpp"
-	.file	26 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-0479-9096-f5ae-743b/./functional.hpp"
+	.file	20 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_fp16_bfp16_gnchw_gkcyx_gnkhw.hpp"
+	.file	21 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./tensor_descriptor_helper.hpp"
+	.file	22 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./functional2.hpp"
+	.file	23 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./blockwise_generic_tensor_slice_copy.hpp"
+	.file	24 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./array.hpp"
+	.file	25 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./functional3.hpp"
+	.file	26 "/nhwc_miopen/build/kevin/miopen-gridwise_convolution_backward_data_implicit_gemm_v4r1_xdlops_gnchw_gkcyx_gnkhw.cpp-500d-1bac-474f-b3b3/./functional.hpp"
                                         ; -- End function
 	.section	.AMDGPU.csdata
-
 ; Kernel info:
-; codeLenInByte = 12748
+; codeLenInByte = 12760
 ; NumSgprs: 49
 ; NumVgprs: 128
 ; NumAgprs: 128
@@ -8914,7 +8914,7 @@ BB77_1:                                 ; %_ZZN2ck5MergeINS_8SequenceIJLi1ELi1EL
 ; COMPUTE_PGM_RSRC2:TGID_Y_EN: 0
 ; COMPUTE_PGM_RSRC2:TGID_Z_EN: 0
 ; COMPUTE_PGM_RSRC2:TIDIG_COMP_CNT: 0
-.amdgpu_metadata
+	.amdgpu_metadata
 ---
 amdhsa.kernels:
   - .args:
